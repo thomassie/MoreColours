@@ -1,11 +1,20 @@
 Package: MoreColours
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Type: Package
+Title: Curated Color Palettes for Data Visualization
+Version: 0.1.0
+Authors@R: person("Thomas", "Massie", email = "thomas.massie@outlook.com", role = c("aut", "cre"))
+Description: A collection of carefully selected color palettes for data visualization,
+    including categorical and sequential palettes. Designed for accessibility and
+    visual appeal in scientific and business graphics.
+License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Suggests: 
+    testthat (>= 3.0.0),
+    ggplot2,
+    scales
+URL: https://github.com/thomassie/MoreColours
+BugReports: https://github.com/thomassie/MoreColours/issues
