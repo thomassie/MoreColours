@@ -1,7 +1,3 @@
-# =============================================================================
-# README.md
-# =============================================================================
-
 # MoreColours
 
 A professional R package providing curated color palettes for data visualization.
