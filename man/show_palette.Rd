@@ -28,4 +28,7 @@ show_palette("modern_categorical_02")
 
 # Show the cool-toned palette
 show_palette("modern_categorical_03")
+
+# Show the diverging palette
+show_palette("modern_diverging_01")
 }

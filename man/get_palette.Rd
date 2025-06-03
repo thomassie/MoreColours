@@ -33,6 +33,9 @@ get_palette("modern_categorical_02")
 # Get the cool-toned palette
 get_palette("modern_categorical_03")
 
+# Get the diverging palette
+get_palette("modern_diverging_01")
+
 # Get first 3 colors
 get_palette("modern_categorical_01", n = 3)
 
