@@ -1,7 +1,3 @@
-# =============================================================================
-# R/palettes.R - Main palette definitions and functions
-# =============================================================================
-
 #' Color Palettes Data
 #'
 #' A list containing all available color palettes in the package.
@@ -11,12 +7,40 @@
 #' @export
 palettes_list <- list(
   # Categorical palette - Professional and accessible
-  modern_categorical = c(
+  modern_categorical_01 = c(
     "#2E86AB",  # Steel Blue
     "#A23B72",  # Berry
     "#F18F01",  # Orange
     "#C73E1D",  # Red
     "#6A994E"   # Green
+  ),
+
+  # Extended categorical palette with rich, earthy tones
+  modern_categorical_02 = c(
+    "#CC7E7C",  # Old Rose
+    "#C41951",  # Rose Red
+    "#5D8B80",  # Viridian
+    "#C29C50",  # Satin Sheen Gold
+    "#D7B556",  # Gold (Metallic)
+    "#E23A3E",  # Poppy
+    "#831040",  # Murray
+    "#6BA529",  # Kelly Green
+    "#F0B313",  # Xanthous
+    "#2B641B"   # Dark Moss Green
+  ),
+
+  # Cool-toned categorical palette with blues and warm accents
+  modern_categorical_03 = c(
+    "#1D74A0",  # Cerulean
+    "#D9AE00",  # Gold (Metallic)
+    "#279FC9",  # Blue Green
+    "#757575",  # Grey
+    "#AA2F16",  # Rufous
+    "#D08D00",  # Harvest Gold
+    "#C6486D",  # Fuchsia Rose
+    "#004F74",  # Indigo Dye
+    "#24A7A5",  # Light Sea Green
+    "#A6646E"   # Rose Taupe
   )
 )
 
@@ -34,16 +58,22 @@ palettes_list <- list(
 #' @export
 #' @examples
 #' # Get the full modern categorical palette
-#' get_palette("modern_categorical")
+#' get_palette("modern_categorical_01")
+#'
+#' # Get the extended 10-color palette
+#' get_palette("modern_categorical_02")
+#'
+#' # Get the cool-toned palette
+#' get_palette("modern_categorical_03")
 #'
 #' # Get first 3 colors
-#' get_palette("modern_categorical", n = 3)
+#' get_palette("modern_categorical_01", n = 3)
 #'
 #' # Get palette in reverse order
-#' get_palette("modern_categorical", reverse = TRUE)
+#' get_palette("modern_categorical_01", reverse = TRUE)
 #'
 #' # Get palette with transparency
-#' get_palette("modern_categorical", alpha = 0.7)
+#' get_palette("modern_categorical_01", alpha = 0.7)
 get_palette <- function(name, n = NULL, type = "discrete", reverse = FALSE, alpha = NULL) {
 
   # Validate palette name
@@ -111,7 +141,13 @@ list_palettes <- function() {
 #' @export
 #' @examples
 #' # Show the modern categorical palette
-#' show_palette("modern_categorical")
+#' show_palette("modern_categorical_01")
+#'
+#' # Show the extended palette
+#' show_palette("modern_categorical_02")
+#'
+#' # Show the cool-toned palette
+#' show_palette("modern_categorical_03")
 show_palette <- function(name, n = NULL, reverse = FALSE) {
   colors <- get_palette(name, n = n, reverse = reverse)
 

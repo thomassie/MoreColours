@@ -1,7 +1,3 @@
-# =============================================================================
-# R/ggplot2_scales.R - ggplot2 integration (optional but recommended)
-# =============================================================================
-
 #' ggplot2 Color Scale (Discrete)
 #'
 #' Apply a color palette to ggplot2 discrete color aesthetics.
@@ -18,16 +14,16 @@
 #' library(ggplot2)
 #' ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
 #'   geom_point() +
-#'   scale_color_palette("modern_categorical")
+#'   scale_color_palette("modern_categorical_01")
 #' }
-scale_color_palette <- function(palette = "modern_categorical", reverse = FALSE, alpha = NULL, ...) {
+scale_color_palette <- function(palette = "modern_categorical_01", reverse = FALSE, alpha = NULL, ...) {
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
     stop("ggplot2 is required for this function. Please install it.")
   }
-  
+
   colors <- get_palette(palette, reverse = reverse, alpha = alpha)
-  
-  ggplot2::discrete_scale("colour", "palette", 
+
+  ggplot2::discrete_scale("colour", "palette",
                           palette = function(n) get_palette(palette, n = n, reverse = reverse, alpha = alpha),
                           ...)
 }
@@ -48,16 +44,16 @@ scale_color_palette <- function(palette = "modern_categorical", reverse = FALSE,
 #' library(ggplot2)
 #' ggplot(iris, aes(x = Species, fill = Species)) +
 #'   geom_bar() +
-#'   scale_fill_palette("modern_categorical")
+#'   scale_fill_palette("modern_categorical_01")
 #' }
-scale_fill_palette <- function(palette = "modern_categorical", reverse = FALSE, alpha = NULL, ...) {
+scale_fill_palette <- function(palette = "modern_categorical_01", reverse = FALSE, alpha = NULL, ...) {
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
     stop("ggplot2 is required for this function. Please install it.")
   }
-  
+
   colors <- get_palette(palette, reverse = reverse, alpha = alpha)
-  
-  ggplot2::discrete_scale("fill", "palette", 
+
+  ggplot2::discrete_scale("fill", "palette",
                           palette = function(n) get_palette(palette, n = n, reverse = reverse, alpha = alpha),
                           ...)
 }

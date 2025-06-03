@@ -21,28 +21,30 @@ library(MoreColours)
 list_palettes()
 
 # Get a palette
-colors <- get_palette("modern_categorical")
+colors <- get_palette("modern_categorical_01")
 
 # Show palette visually
-show_palette("modern_categorical")
+show_palette("modern_categorical_01")
 
 # Use with ggplot2
 library(ggplot2)
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
   geom_point() +
-  scale_color_palette("modern_categorical")
+  scale_color_palette("modern_categorical_01")
 ```
 
 ## Available Palettes
 
-- `modern_categorical`: A 5-color palette optimized for categorical data
+- `modern_categorical_01`: A 5-color palette optimized for categorical data
+- `modern_categorical_02`: A 10-color extended palette with rich, earthy tones
+- `modern_categorical_03`: A 10-color cool-toned palette with blues and warm accents
 
 ## Development
 
 To build and check the package:
 
 ```r
-devtools::document()  Generate documentation
-devtools::check()     Check package
-devtools::build()     Build package
+devtools::document()  # Generate documentation
+devtools::check()     # Check package
+devtools::build()     # Build package
 ```

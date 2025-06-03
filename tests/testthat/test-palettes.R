@@ -1,25 +1,23 @@
-# =============================================================================
-# tests/testthat/test-palettes.R - Unit tests
-# =============================================================================
-
 test_that("get_palette returns correct colors", {
-  colors <- get_palette("modern_categorical")
+  colors <- get_palette("modern_categorical_01")
   expect_equal(length(colors), 5)
   expect_true(all(grepl("^#[0-9A-Fa-f]{6}$", colors)))
 })
 
 test_that("get_palette handles n parameter correctly", {
-  colors <- get_palette("modern_categorical", n = 3)
+  colors <- get_palette("modern_categorical_01", n = 3)
   expect_equal(length(colors), 3)
 })
 
 test_that("get_palette handles reverse parameter", {
-  normal <- get_palette("modern_categorical")
-  reversed <- get_palette("modern_categorical", reverse = TRUE)
+  normal <- get_palette("modern_categorical_01")
+  reversed <- get_palette("modern_categorical_01", reverse = TRUE)
   expect_equal(normal, rev(reversed))
 })
 
 test_that("list_palettes returns available palettes", {
   palettes <- list_palettes()
-  expect_true("modern_categorical" %in% palettes)
+  expect_true("modern_categorical_01" %in% palettes)
+  expect_true("modern_categorical_02" %in% palettes)
+  expect_true("modern_categorical_03" %in% palettes)
 })
