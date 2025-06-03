@@ -5,7 +5,7 @@
 \title{ggplot2 Fill Scale (Discrete)}
 \usage{
 scale_fill_palette(
-  palette = "modern_categorical",
+  palette = "modern_categorical_01",
   reverse = FALSE,
   alpha = NULL,
   ...
@@ -31,6 +31,6 @@ Apply a color palette to ggplot2 discrete fill aesthetics.
 library(ggplot2)
 ggplot(iris, aes(x = Species, fill = Species)) +
   geom_bar() +
-  scale_fill_palette("modern_categorical")
+  scale_fill_palette("modern_categorical_01")
 }
 }

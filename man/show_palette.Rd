@@ -21,5 +21,11 @@ Display a palette visually using base R plotting.
 }
 \examples{
 # Show the modern categorical palette
-show_palette("modern_categorical")
+show_palette("modern_categorical_01")
+
+# Show the extended palette
+show_palette("modern_categorical_02")
+
+# Show the cool-toned palette
+show_palette("modern_categorical_03")
 }

@@ -35,9 +35,13 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
 
 ## Available Palettes
 
+### Categorical Palettes
 - `modern_categorical_01`: A 5-color palette optimized for categorical data
 - `modern_categorical_02`: A 10-color extended palette with rich, earthy tones
 - `modern_categorical_03`: A 10-color cool-toned palette with blues and warm accents
+
+### Diverging Palettes
+- `modern_diverging_01`: A 7-color red-to-blue diverging palette with neutral center
 
 ## Development
 

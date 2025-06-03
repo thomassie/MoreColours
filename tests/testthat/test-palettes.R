@@ -20,4 +20,5 @@ test_that("list_palettes returns available palettes", {
   expect_true("modern_categorical_01" %in% palettes)
   expect_true("modern_categorical_02" %in% palettes)
   expect_true("modern_categorical_03" %in% palettes)
+  expect_true("modern_diverging_01" %in% palettes)
 })

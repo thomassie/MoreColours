@@ -25,14 +25,20 @@ Retrieve a color palette by name with optional parameters for customization.
 }
 \examples{
 # Get the full modern categorical palette
-get_palette("modern_categorical")
+get_palette("modern_categorical_01")
+
+# Get the extended 10-color palette
+get_palette("modern_categorical_02")
+
+# Get the cool-toned palette
+get_palette("modern_categorical_03")
 
 # Get first 3 colors
-get_palette("modern_categorical", n = 3)
+get_palette("modern_categorical_01", n = 3)
 
 # Get palette in reverse order
-get_palette("modern_categorical", reverse = TRUE)
+get_palette("modern_categorical_01", reverse = TRUE)
 
 # Get palette with transparency
-get_palette("modern_categorical", alpha = 0.7)
+get_palette("modern_categorical_01", alpha = 0.7)
 }

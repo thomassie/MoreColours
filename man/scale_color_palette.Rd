@@ -5,7 +5,7 @@
 \title{ggplot2 Color Scale (Discrete)}
 \usage{
 scale_color_palette(
-  palette = "modern_categorical",
+  palette = "modern_categorical_01",
   reverse = FALSE,
   alpha = NULL,
   ...
@@ -31,6 +31,6 @@ Apply a color palette to ggplot2 discrete color aesthetics.
 library(ggplot2)
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
   geom_point() +
-  scale_color_palette("modern_categorical")
+  scale_color_palette("modern_categorical_01")
 }
 }

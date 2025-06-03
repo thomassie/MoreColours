@@ -18,13 +18,13 @@ palettes_list <- list(
   # Extended categorical palette with rich, earthy tones
   modern_categorical_02 = c(
     "#CC7E7C",  # Old Rose
+    "#D7B556",  # Gold (Metallic)
     "#C41951",  # Rose Red
     "#5D8B80",  # Viridian
+    "#6BA529",  # Kelly Green
     "#C29C50",  # Satin Sheen Gold
-    "#D7B556",  # Gold (Metallic)
     "#E23A3E",  # Poppy
     "#831040",  # Murray
-    "#6BA529",  # Kelly Green
     "#F0B313",  # Xanthous
     "#2B641B"   # Dark Moss Green
   ),
@@ -41,6 +41,17 @@ palettes_list <- list(
     "#004F74",  # Indigo Dye
     "#24A7A5",  # Light Sea Green
     "#A6646E"   # Rose Taupe
+  ),
+
+  # Diverging palette from red to blue with neutral center
+  modern_diverging_01 = c(
+    "#800F2F",  # Claret
+    "#FF595E",  # Bittersweet
+    "#FFB3C1",  # Cherry Blossom Pink
+    "#F1FAEE",  # Honeydew
+    "#A8DADC",  # Non Photo Blue
+    "#457B9D",  # Cerulean
+    "#1D3557"   # Berkeley Blue
   )
 )
 
@@ -65,6 +76,9 @@ palettes_list <- list(
 #'
 #' # Get the cool-toned palette
 #' get_palette("modern_categorical_03")
+#'
+#' # Get the diverging palette
+#' get_palette("modern_diverging_01")
 #'
 #' # Get first 3 colors
 #' get_palette("modern_categorical_01", n = 3)
@@ -148,6 +162,9 @@ list_palettes <- function() {
 #'
 #' # Show the cool-toned palette
 #' show_palette("modern_categorical_03")
+#'
+#' # Show the diverging palette
+#' show_palette("modern_diverging_01")
 show_palette <- function(name, n = NULL, reverse = FALSE) {
   colors <- get_palette(name, n = n, reverse = reverse)
 
