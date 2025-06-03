@@ -43,6 +43,39 @@ palettes_list <- list(
     "#A6646E"   # Rose Taupe
   ),
 
+  # Vibrant categorical palette with bold colors
+  modern_categorical_04 = c(
+    "#00A99D",  # Persian Green
+    "#0076A3",  # Cerulean
+    "#662D91",  # Rebecca Purple
+    "#992B7B",  # Plum
+    "#E6494E",  # Imperial Red
+    "#F57D58",  # Coral
+    "#F3D95C"   # Naples Yellow
+  ),
+
+  # Earthy categorical palette with natural tones
+  modern_categorical_05 = c(
+    "#DAB13D",  # Gold Metallic
+    "#A18C4E",  # Lion
+    "#C0B69F",  # Khaki
+    "#99AF9A",  # Cambridge Blue
+    "#EFB295",  # Peach
+    "#D46235",  # Flame
+    "#707070"   # Dim Gray
+  ),
+
+  # Dynamic categorical palette with high contrast
+  modern_categorical_06 = c(
+    "#2F3E77",  # Marian Blue
+    "#F5B841",  # Xanthous
+    "#A2733F",  # Copper
+    "#2CB67D",  # Mint
+    "#FF4F5E",  # Folly
+    "#4AC6FF",  # Deep Sky Blue
+    "#FF6A3D"   # Tomato
+  ),
+
   # Diverging palette from red to blue with neutral center
   modern_diverging_01 = c(
     "#800F2F",  # Claret
@@ -85,6 +118,83 @@ palettes_list <- list(
     "#FC9CB5",  # Baker Miller Pink
     "#FA4274",  # Bright Pink Crayola
     "#DF3764"   # Cerise
+  ),
+
+  # Diverging palette from teal to orange through vanilla
+  modern_diverging_05 = c(
+    "#005F73",  # Midnight Green
+    "#0A9396",  # Dark Cyan
+    "#94D2BD",  # Tiffany Blue
+    "#E9D8A6",  # Vanilla
+    "#EE9B00",  # Gamboge
+    "#CA6702",  # Alloy Orange
+    "#BB3E03"   # Rust
+  ),
+
+  # Diverging palette from red to magenta through white
+  modern_diverging_06 = c(
+    "#D63226",  # Chili Red
+    "#F17628",  # Pumpkin
+    "#F79858",  # Atomic Tangerine
+    "#FFFFFF",  # White
+    "#D162A4",  # Sky Magenta
+    "#BA5895",  # Mulberry
+    "#A32265"   # Quinacridone Magenta
+  ),
+
+  # Diverging palette from dark green to red through blue
+  modern_diverging_07 = c(
+    "#0D322C",  # Dark Green
+    "#1E7662",  # Pine Green
+    "#28B79F",  # Keppel
+    "#A1DCEB",  # Non Photo Blue
+    "#ED192E",  # Imperial Red
+    "#CE1628",  # Fire Engine Red
+    "#A61120"   # Madder
+  ),
+
+  # Diverging palette from black to red through neutrals
+  modern_diverging_08 = c(
+    "#0D0B07",  # Smoky Black
+    "#5D5B57",  # Davy's Gray
+    "#AAA8A5",  # Silver
+    "#F7F5F3",  # White Smoke
+    "#E72000",  # Off Red RGB
+    "#D00000",  # Engineering Orange
+    "#B31000"   # Turkey Red
+  ),
+
+  # Diverging palette from blue to red through platinum
+  modern_diverging_09 = c(
+    "#003E7F",  # Yale Blue
+    "#0068AF",  # Green Blue
+    "#5495E1",  # United Nations Blue
+    "#DDDDDD",  # Platinum
+    "#FF5F42",  # Tomato
+    "#E2231A",  # Red CMYK
+    "#A70000"   # Turkey Red
+  ),
+
+  # Diverging palette from prussian blue to brown through neutrals
+  modern_diverging_10 = c(
+    "#00243D",  # Prussian Blue
+    "#15616D",  # Caribbean Current
+    "#8BA79F",  # Cambridge Blue
+    "#FFECD1",  # Papaya Whip
+    "#E09F3E",  # Hunyadi Yellow
+    "#A33814",  # Brown
+    "#632B18"   # Seal Brown
+  ),
+
+  # Diverging palette from caribbean to tangerine through neutrals
+  modern_diverging_11 = c(
+    "#006D77",  # Caribbean Current
+    "#42999B",  # Dark Cyan
+    "#83C5BE",  # Tiffany Blue
+    "#EDF6F9",  # Alice Blue
+    "#FFDDD2",  # Pale Dogwood
+    "#F1B9A5",  # Melon
+    "#E29578"   # Atomic Tangerine
   ),
 
   # Sequential palette - Reds from dark to light
@@ -197,6 +307,72 @@ palettes_list <- list(
     "#CBC5C0",  # Silver 3
     "#DFD9D3",  # Timberwolf
     "#F5EFE8"   # Isabelline
+  ),
+
+  # Sequential palette - Cyan to white gradient
+  modern_sequential_cyan_01 = c(
+    "#292929",  # Jet
+    "#00919C",  # Dark Cyan
+    "#00BECC",  # Robin Egg Blue
+    "#00E4F5",  # Electric Blue
+    "#E1E1E1",  # Platinum
+    "#F1F1F1",  # Antiflash White
+    "#FFFFFF"   # White
+  ),
+
+  # Sequential palette - Blue-grey gradient from light to dark
+  modern_sequential_blue_03 = c(
+    "#E4E7E4",  # Platinum
+    "#C0C4CA",  # French Gray
+    "#9BA1B0",  # Cadet Gray
+    "#777F96",  # Slate Gray
+    "#535C7B",  # Ultra Violet
+    "#2E3961",  # Delft Blue
+    "#0A1647"   # Penn Blue
+  ),
+
+  # Sequential palette - Deep blue progression
+  modern_sequential_blue_04 = c(
+    "#020344",  # Federal Blue
+    "#08215C",  # Penn Blue
+    "#0F3F74",  # Yale Blue
+    "#155E8D",  # Lapis Lazuli
+    "#1B7CA5",  # Cerulean
+    "#229ABD",  # Blue Green
+    "#28B8D5"   # Pacific Cyan
+  ),
+
+  # Sequential palette - Warm coral progression
+  modern_sequential_coral_01 = c(
+    "#FDF1CB",  # Cornsilk
+    "#F0CCB4",  # Desert Sand
+    "#E3A69D",  # Melon
+    "#D78186",  # Old Rose
+    "#CA5B6F",  # Blush
+    "#BD3658",  # Rose Red
+    "#B01041"   # Amaranth Purple
+  ),
+
+  # Sequential palette - Pink-grey progression
+  modern_sequential_pink_01 = c(
+    "#5A6776",  # Paynes Gray
+    "#766A76",  # Dim Gray
+    "#916E75",  # Mountbatten Pink
+    "#AD7175",  # Old Rose
+    "#C87475",  # Old Rose 2
+    "#E47874",  # Light Coral
+    "#FF7B74"   # Coral Pink
+  ),
+
+  # Sequential palette - Deep red progression
+  modern_sequential_red_02 = c(
+    "#C11E38",  # Cardinal
+    "#A71B37",  # Madder
+    "#8C1837",  # Claret
+    "#721536",  # Claret 2
+    "#571135",  # Tyrian Purple
+    "#3D0E35",  # Dark Purple
+    "#220B34"   # Russian Violet
   )
 )
 

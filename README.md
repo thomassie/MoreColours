@@ -55,6 +55,24 @@ show_palette("modern_categorical_02")
 show_palette("modern_categorical_03")
 ```
 
+**modern_categorical_04** - A 7-color vibrant palette with bold colors
+```r
+# Persian Green, Cerulean, Rebecca Purple, Plum, Imperial Red, Coral, Naples Yellow
+show_palette("modern_categorical_04")
+```
+
+**modern_categorical_05** - A 7-color earthy palette with natural tones
+```r
+# Gold Metallic, Lion, Khaki, Cambridge Blue, Peach, Flame, Dim Gray
+show_palette("modern_categorical_05")
+```
+
+**modern_categorical_06** - A 7-color dynamic palette with high contrast
+```r
+# Marian Blue, Xanthous, Copper, Mint, Folly, Deep Sky Blue, Tomato
+show_palette("modern_categorical_06")
+```
+
 ### Diverging Palettes
 
 **modern_diverging_01** - A 7-color red-to-blue diverging palette with neutral center
@@ -79,6 +97,48 @@ show_palette("modern_diverging_03")
 ```r
 # Persimmon to Orange Crayola to Atomic Tangerine to Linen to Baker Miller Pink to Bright Pink Crayola to Cerise
 show_palette("modern_diverging_04")
+```
+
+**modern_diverging_05** - A 7-color teal-to-orange diverging palette through vanilla
+```r
+# Midnight Green to Dark Cyan to Tiffany Blue to Vanilla to Gamboge to Alloy Orange to Rust
+show_palette("modern_diverging_05")
+```
+
+**modern_diverging_06** - A 7-color red-to-magenta diverging palette through white
+```r
+# Chili Red to Pumpkin to Atomic Tangerine to White to Sky Magenta to Mulberry to Quinacridone Magenta
+show_palette("modern_diverging_06")
+```
+
+**modern_diverging_07** - A 7-color dark green-to-red diverging palette through blue
+```r
+# Dark Green to Pine Green to Keppel to Non Photo Blue to Imperial Red to Fire Engine Red to Madder
+show_palette("modern_diverging_07")
+```
+
+**modern_diverging_08** - A 7-color black-to-red diverging palette through neutrals
+```r
+# Smoky Black to Davy's Gray to Silver to White Smoke to Off Red RGB to Engineering Orange to Turkey Red
+show_palette("modern_diverging_08")
+```
+
+**modern_diverging_09** - A 7-color blue-to-red diverging palette through platinum
+```r
+# Yale Blue to Green Blue to United Nations Blue to Platinum to Tomato to Red CMYK to Turkey Red
+show_palette("modern_diverging_09")
+```
+
+**modern_diverging_10** - A 7-color prussian blue-to-brown diverging palette through neutrals
+```r
+# Prussian Blue to Caribbean Current to Cambridge Blue to Papaya Whip to Hunyadi Yellow to Brown to Seal Brown
+show_palette("modern_diverging_10")
+```
+
+**modern_diverging_11** - A 7-color caribbean-to-tangerine diverging palette through neutrals
+```r
+# Caribbean Current to Dark Cyan to Tiffany Blue to Alice Blue to Pale Dogwood to Melon to Atomic Tangerine
+show_palette("modern_diverging_11")
 ```
 
 ### Sequential Palettes
@@ -131,6 +191,42 @@ show_palette("modern_sequential_yellow_01")
 show_palette("modern_sequential_grey_01")
 ```
 
+**modern_sequential_cyan_01** - A 7-color cyan-to-white sequential palette
+```r
+# Jet to Dark Cyan to Robin Egg Blue to Electric Blue to Platinum to Antiflash White to White
+show_palette("modern_sequential_cyan_01")
+```
+
+**modern_sequential_blue_03** - A 7-color blue-grey sequential palette from light to dark
+```r
+# Platinum to French Gray to Cadet Gray to Slate Gray to Ultra Violet to Delft Blue to Penn Blue
+show_palette("modern_sequential_blue_03")
+```
+
+**modern_sequential_blue_04** - A 7-color deep blue sequential palette
+```r
+# Federal Blue to Penn Blue to Yale Blue to Lapis Lazuli to Cerulean to Blue Green to Pacific Cyan
+show_palette("modern_sequential_blue_04")
+```
+
+**modern_sequential_coral_01** - A 7-color warm coral sequential palette
+```r
+# Cornsilk to Desert Sand to Melon to Old Rose to Blush to Rose Red to Amaranth Purple
+show_palette("modern_sequential_coral_01")
+```
+
+**modern_sequential_pink_01** - A 7-color pink-grey sequential palette
+```r
+# Paynes Gray to Dim Gray to Mountbatten Pink to Old Rose to Old Rose 2 to Light Coral to Coral Pink
+show_palette("modern_sequential_pink_01")
+```
+
+**modern_sequential_red_02** - A 7-color deep red sequential palette
+```r
+# Cardinal to Madder to Claret to Claret 2 to Tyrian Purple to Dark Purple to Russian Violet
+show_palette("modern_sequential_red_02")
+```
+
 ## Usage Examples
 
 ### Categorical Data Visualization
@@ -157,22 +253,30 @@ ggplot(mtcars, aes(x = factor(cyl), fill = factor(gear))) +
 ### Diverging Data Visualization
 
 ```r
-# Correlation matrix heatmap
+# Correlation matrix heatmap using base R
 cor_matrix <- cor(mtcars)
 heatmap(cor_matrix, 
         col = get_palette("modern_diverging_01", n = 11, type = "continuous"),
         main = "Correlation Matrix with Diverging Colors")
+```
 
-# Using ggplot2 for diverging data
-library(reshape2)
-cor_data <- melt(cor_matrix)
+```r
+# Correlation heatmap using ggplot2
+library(ggplot2)
+
+# Create correlation matrix and convert to long format (base R method)
+cor_matrix <- cor(mtcars)
+cor_data <- expand.grid(Var1 = rownames(cor_matrix), Var2 = colnames(cor_matrix))
+cor_data$value <- as.vector(cor_matrix)
+
+# Create the heatmap
 ggplot(cor_data, aes(x = Var1, y = Var2, fill = value)) +
   geom_tile() +
   scale_fill_gradientn(colors = get_palette("modern_diverging_02", n = 11, type = "continuous"),
                        limits = c(-1, 1)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(title = "Correlation Heatmap")
+  labs(title = "Correlation Heatmap with Diverging Palette")
 ```
 
 ### Sequential Data Visualization
@@ -186,8 +290,8 @@ ggplot(faithful, aes(x = eruptions, y = waiting)) +
   labs(title = "Old Faithful Eruptions")
 
 # Surface plot using volcano data
-volcano_data <- expand.grid(x = 1:nrow(volcano), y = 1:ncol(volcano))
-volcano_data$z <- as.vector(volcano)
+volcano_data <- expand.grid(x = 1:nrow(volcano), y = 1:ncol(volcano))  # Create grid
+volcano_data$z <- as.vector(volcano)  # Add elevation values
 
 ggplot(volcano_data, aes(x = x, y = y, fill = z)) +
   geom_tile() +
