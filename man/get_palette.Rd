@@ -24,17 +24,21 @@ A character vector of hex color codes
 Retrieve a color palette by name with optional parameters for customization.
 }
 \examples{
-# Get the full modern categorical palette
+# Get categorical palettes
 get_palette("modern_categorical_01")
-
-# Get the extended 10-color palette
 get_palette("modern_categorical_02")
-
-# Get the cool-toned palette
 get_palette("modern_categorical_03")
 
-# Get the diverging palette
+# Get diverging palettes
 get_palette("modern_diverging_01")
+get_palette("modern_diverging_02")
+get_palette("modern_diverging_03")
+get_palette("modern_diverging_04")
+
+# Get sequential palettes
+get_palette("modern_sequential_red_01")
+get_palette("modern_sequential_blue_01")
+get_palette("modern_sequential_green_01")
 
 # Get first 3 colors
 get_palette("modern_categorical_01", n = 3)

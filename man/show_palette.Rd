@@ -20,15 +20,19 @@ NULL (creates a plot)
 Display a palette visually using base R plotting.
 }
 \examples{
-# Show the modern categorical palette
+# Show categorical palettes
 show_palette("modern_categorical_01")
-
-# Show the extended palette
 show_palette("modern_categorical_02")
-
-# Show the cool-toned palette
 show_palette("modern_categorical_03")
 
-# Show the diverging palette
+# Show diverging palettes
 show_palette("modern_diverging_01")
+show_palette("modern_diverging_02")
+show_palette("modern_diverging_03")
+show_palette("modern_diverging_04")
+
+# Show sequential palettes
+show_palette("modern_sequential_red_01")
+show_palette("modern_sequential_blue_01")
+show_palette("modern_sequential_green_01")
 }
