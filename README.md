@@ -319,10 +319,10 @@ show_palette("modern_sequential_red_02")
 
 <img src="assets/modern_sequential_red_02.png" height="100" alt="modern_sequential_red_02"><br>
 
-**modern_sequential_red_03** - A 10-color rose sequential palette from dark to light
+**modern_sequential_red_03** - A 7-color rose sequential palette with cyan accents
 
 ``` r
-# Chocolate Cosmos to Caput Mortuum to Wine to Rose Ebony to Rose Taupe to Rose Taupe 2 to Old Rose to Orchid Pink to Tea Rose Red to Misty Rose
+# Tea Rose Red to Tea Rose Red 2 to Lavender Blush to Seasalt to Light Cyan to Mint Green to Non Photo Blue
 show_palette("modern_sequential_red_03")
 ```
 
@@ -449,53 +449,46 @@ show_palette("modern_sequential_grey_01")
 
 <img src="assets/modern_sequential_grey_01.png" height="100" alt="modern_sequential_grey_01"><br>
 
-**modern_sequential_grey_02** - A 10-color neutral grey sequential palette
-
-``` r
-# Seasalt to Antiflash White to Platinum to French Gray to French Gray 2 to Cadet Gray to Slate Gray to Outer Space to Onyx to Eerie Black
-show_palette("modern_sequential_grey_02")
-```
-
-**modern_sequential_grey_03** - A 10-color warm grey sequential palette
-
-``` r
-# Seasalt to Timberwolf to Dun to Khaki to Beaver to Raw Umber to Umber to Van Dyke to Bistre to Licorice
-show_palette("modern_sequential_grey_03")
-```
-
-**modern_sequential_grey_04** - A 10-color brown sequential palette
+**modern_sequential_grey_02** - A 10-color brown sequential palette
 
 ``` r
 # Bistre to Cafe Noir to Kobicha to Coyote to Lion to Lion 2 to Buff to Desert Sand to Light Orange to Wheat
-show_palette("modern_sequential_grey_04")
+show_palette("modern_sequential_grey_02")
 ```
 
-**modern_sequential_grey_05** - A 10-color light grey sequential palette
+**modern_sequential_grey_03** - A 10-color neutral grey sequential palette
+
+``` r
+# Seasalt to Antiflash White to Platinum to French Gray to French Gray 2 to Cadet Gray to Slate Gray to Outer Space to Onyx to Eerie Black
+show_palette("modern_sequential_grey_03")
+```
+
+**modern_sequential_grey_04** - A 10-color light grey sequential palette
 
 ``` r
 # White to White Smoke to Antiflash White to Platinum to Timberwolf to Silver to Silver 2 to Silver 3 to Silver 4 to Silver 5
-show_palette("modern_sequential_grey_05")
+show_palette("modern_sequential_grey_04")
 ```
 
-**modern_sequential_grey_06** - A 10-color dark grey sequential palette
-
-``` r
-# Night to Eerie Black to Jet to Davys Gray to Dim Gray to Battleship Gray to Silver to Silver 2 to Platinum to White Smoke
-show_palette("modern_sequential_grey_06")
-```
-
-**modern_sequential_grey_07** - A 10-color warm neutral sequential palette
+**modern_sequential_grey_05** - A 10-color warm neutral sequential palette
 
 ``` r
 # Timberwolf to Timberwolf 2 to Dun to Dun 2 to Khaki to Khaki 2 to Khaki 3 to Khaki 4 to Cinereous to Beaver
-show_palette("modern_sequential_grey_07")
+show_palette("modern_sequential_grey_05")
 ```
 
-**modern_sequential_grey_08** - A 10-color beige sequential palette
+**modern_sequential_grey_06** - A 10-color beige sequential palette
 
 ``` r
 # Linen to Bone to Almond to Almond 2 to Dun to Dun 2 to Dun 3 to Dun 4 to Khaki to Khaki 2
-show_palette("modern_sequential_grey_08")
+show_palette("modern_sequential_grey_06")
+```
+
+**modern_sequential_grey_07** - A 10-color dark grey sequential palette
+
+``` r
+# Night to Eerie Black to Jet to Davys Gray to Dim Gray to Battleship Gray to Silver to Silver 2 to Platinum to White Smoke
+show_palette("modern_sequential_grey_07")
 ```
 
 **modern_sequential_cyan_01** - A 7-color cyan-to-white sequential palette
@@ -658,7 +651,7 @@ first_three <- get_palette("modern_categorical_02", n = 3)
 generate_all_pngs()
 
 # Generate with custom settings
-generate_all_pngs(output_dir = "assets", width = 100, height = 100)
+generate_all_pngs(output_dir = "my_assets", width = 100, height = 100)
 ```
 
 ### Integration with Other Packages

@@ -1,4 +1,385 @@
-#' List of all available palettes
+# Sequential Palettes
+modern_sequential_red_01 = c(
+  "#370617",  # Chocolate Cosmos
+  "#83203E",  # Claret
+  "#B23A7F",  # Amaranth Purple
+  "#C5617B",  # Rose Red
+  "#FF69B4",  # Bright Pink Crayola
+  "#FF91A4",  # Salmon Pink
+  "#FFB3C1",  # Cherry Blossom Pink
+  "#FFC0CB",  # Pink
+  "#FFF0F5"   # Lavender Blush
+),
+
+modern_sequential_red_02 = c(
+  "#C41E3A",  # Cardinal
+  "#CC2936",  # Madder
+  "#83203E",  # Claret
+  "#722F37",  # Claret 2
+  "#66023C",  # Tyrian Purple
+  "#301934",  # Dark Purple
+  "#4B0082"   # Russian Violet
+),
+
+modern_sequential_red_03 = c(
+  "#DFB9BB",  # Tea Rose Red
+  "#FDC8C4",  # Tea Rose Red 2
+  "#FCEDEF",  # Lavender Blush
+  "#FAFAFA",  # Seasalt
+  "#DDFFFF",  # Light Cyan
+  "#D7F1EE",  # Mint Green
+  "#B6E3E8"   # Non Photo Blue
+),
+
+modern_sequential_blue_01 = c(
+  "#003366",  # Prussian Blue
+  "#1B263B",  # Indigo Dye
+  "#415A77",  # UCLA Blue
+  "#2E86AB",  # Cerulean
+  "#5D737E",  # Air Force Blue
+  "#7BA098",  # Air Superiority Blue
+  "#87CEEB",  # Sky Blue
+  "#ADD8E6"   # Light Blue
+),
+
+modern_sequential_blue_02 = c(
+  "#2E86AB",  # Cerulean
+  "#0081A7",  # Bondi Blue
+  "#00AFB9",  # Moonstone
+  "#5CDB95",  # Robin Egg Blue
+  "#40E0D0",  # Tiffany Blue
+  "#7FFFD4"   # Aquamarine
+),
+
+modern_sequential_blue_03 = c(
+  "#E5E5E5",  # Platinum
+  "#9E9E9E",  # French Gray
+  "#6F7B85",  # Cadet Gray
+  "#708090",  # Slate Gray
+  "#5D4E75",  # Ultra Violet
+  "#1B4F72",  # Delft Blue
+  "#1C2F4A"   # Penn Blue
+),
+
+modern_sequential_blue_04 = c(
+  "#4E4B99",  # Federal Blue
+  "#1C2F4A",  # Penn Blue
+  "#0F4C75",  # Yale Blue
+  "#2E8B9E",  # Lapis Lazuli
+  "#2E86AB",  # Cerulean
+  "#40E0D0",  # Blue Green
+  "#4FB3D9"   # Pacific Cyan
+),
+
+modern_sequential_blue_05 = c(
+  "#01ACFB",  # Picton Blue
+  "#34BDFC",  # Deep Sky Blue
+  "#5DCAFD",  # Vivid Sky Blue
+  "#7DD5FD",  # Pale Azure
+  "#97DDFD",  # Pale Azure 2
+  "#ACE4FD",  # Uranian Blue
+  "#BDE9FD",  # Uranian Blue 2
+  "#CAEDFD",  # Columbia Blue
+  "#D5F1FD",  # Columbia Blue 2
+  "#DDF4FD"   # Azure Web
+),
+
+modern_sequential_blue_06 = c(
+  "#DEEFF7",  # Alice Blue
+  "#BEDEEF",  # Columbia Blue
+  "#9DCEE7",  # Baby Blue
+  "#7CBEDE",  # Sky Blue
+  "#5CADD6",  # Picton Blue
+  "#3399CC",  # Celestial Blue
+  "#2D87B4",  # Blue NCS
+  "#256E93",  # Cerulean
+  "#1D5672",  # Indigo Dye
+  "#143D52"   # Indigo Dye 2
+),
+
+modern_sequential_green_01 = c(
+  "#40826D",  # Viridian
+  "#2E8B57",  # Sea Green
+  "#228B22",  # Kelly Green
+  "#9ACD32",  # Apple Green
+  "#ADFF2F",  # Yellow Green
+  "#D1E231",  # Pear
+  "#FFFF00"   # Yellow
+),
+
+modern_sequential_green_02 = c(
+  "#1B4332",  # Brunswick Green
+  "#2D5016",  # Castleton Green
+  "#40531B",  # Dartmouth Green
+  "#00FF7F",  # Dark Spring Green
+  "#00FF66",  # Shamrock Green
+  "#98FB98",  # Mint
+  "#7FFFD4",  # Aquamarine
+  "#ACE1AF",  # Celadon
+  "#F0FFF0",  # Honeydew
+  "#F5FFFA"   # Mint Cream
+),
+
+modern_sequential_green_03 = c(
+  "#006400",  # Dark Green
+  "#1E4D2B",  # Cal Poly Green
+  "#4F7942",  # Fern Green
+  "#87A96B",  # Asparagus
+  "#74C365",  # Mantis
+  "#9BC53D",  # Olivine
+  "#ACE1AF",  # Celadon
+  "#C8E6C8",  # Tea Green
+  "#F0FFF0"   # Honeydew
+),
+
+modern_sequential_green_04 = c(
+  "#E0F2F1",  # Azure Web
+  "#B2DFDB",  # Tiffany Blue
+  "#80CBC4",  # Tiffany Blue 2
+  "#4DB6AC",  # Verdigris
+  "#26A69A",  # Persian Green
+  "#009688",  # Persian Green 2
+  "#00897B",  # Dark Cyan
+  "#00796B",  # Pine Green
+  "#00695C",  # Pine Green 2
+  "#004D40"   # Brunswick Green
+),
+
+modern_sequential_green_05 = c(
+  "#1C3E35",  # Brunswick Green
+  "#2A5246",  # Brunswick Green 2
+  "#386658",  # Hookers Green
+  "#467A69",  # Hookers Green 2
+  "#548E7A",  # Viridian
+  "#61A28C",  # Zomp
+  "#6FB69D",  # Cambridge Blue
+  "#7DCAAE",  # Cambridge Blue 2
+  "#8BDEC0",  # Tiffany Blue
+  "#99F2D1"   # Aquamarine
+),
+
+modern_sequential_green_06 = c(
+  "#3A4530",  # Black Olive
+  "#5E704A",  # Reseda Green
+  "#7A9360",  # Moss Green
+  "#95B378",  # Olivine
+  "#B2D78E",  # Pistachio
+  "#CCF8A5",  # Tea Green
+  "#D8FAB7",  # Tea Green 2
+  "#E3FCCC",  # Nyanza
+  "#EDFCDD",  # Nyanza 2
+  "#F4FAEE"   # Ivory
+),
+
+modern_sequential_yellow_01 = c(
+  "#FF6600",  # Safety Orange
+  "#FF8C00",  # Dark Orange Web
+  "#FF8500",  # Princeton Orange
+  "#FF9500",  # Orange Peel
+  "#FFA500",  # Orange Web
+  "#FFBF00",  # Selective Yellow
+  "#FFCF00",  # Mikado Yellow
+  "#F4D03F",  # Jonquil
+  "#FFD700",  # School Bus Yellow
+  "#FFDC00"   # Naples Yellow
+),
+
+modern_sequential_yellow_02 = c(
+  "#C29F21",  # Satin Sheen Gold
+  "#C6A52C",  # Gold Metallic
+  "#C9AA36",  # Gold Metallic 2
+  "#CFB44A",  # Old Gold
+  "#D6BE5F",  # Old Gold 2
+  "#DCC873",  # Citron
+  "#E3D388",  # Flax
+  "#E9DD9C",  # Vanilla
+  "#F0E7B0",  # Vanilla 2
+  "#F6F1C4"   # Lemon Chiffon
+),
+
+modern_sequential_grey_01 = c(
+  "#696969",  # Dim Gray
+  "#808080",  # Gray
+  "#778899",  # Battleship Gray
+  "#8B8680",  # Taupe Gray
+  "#C0C0C0",  # Silver
+  "#DBD7D2",  # Timberwolf
+  "#F4F0EC"   # Isabelline
+),
+
+modern_sequential_grey_02 = c(
+  "#2C2111",  # Bistre
+  "#44331A",  # Cafe Noir
+  "#5C4624",  # Kobicha
+  "#83673F",  # Coyote
+  "#A9875A",  # Lion
+  "#CD9F6E",  # Lion 2
+  "#DCAF85",  # Buff
+  "#EAC39C",  # Desert Sand
+  "#F8D6B3",  # Light Orange
+  "#F7E1BE"   # Wheat
+),
+
+modern_sequential_grey_03 = c(
+  "#F8F9FA",  # Seasalt
+  "#E9ECEF",  # Antiflash White
+  "#DEE2E6",  # Platinum
+  "#CED4DA",  # French Gray
+  "#ADB5BD",  # French Gray 2
+  "#8D959D",  # Cadet Gray
+  "#6C757D",  # Slate Gray
+  "#495057",  # Outer Space
+  "#343A40",  # Onyx
+  "#212529"   # Eerie Black
+),
+
+modern_sequential_grey_04 = c(
+  "#FFFFFF",  # White
+  "#F5F5F5",  # White Smoke
+  "#EBEBEB",  # Antiflash White
+  "#E0E0E0",  # Platinum
+  "#D6D6D6",  # Timberwolf
+  "#CCCCCC",  # Silver
+  "#C2C2C2",  # Silver 2
+  "#B8B8B8",  # Silver 3
+  "#ADADAD",  # Silver 4
+  "#A3A3A3"   # Silver 5
+),
+
+modern_sequential_grey_05 = c(
+  "#D9CDC4",  # Timberwolf
+  "#D5C8BF",  # Timberwolf 2
+  "#CDBFB4",  # Dun
+  "#C6B9AD",  # Dun 2
+  "#C2B4A8",  # Khaki
+  "#BDB0A4",  # Khaki 2
+  "#B4A99F",  # Khaki 3
+  "#A99C92",  # Khaki 4
+  "#A29387",  # Cinereous
+  "#9B887B"   # Beaver
+),
+
+modern_sequential_grey_06 = c(
+  "#EBE3DA",  # Linen
+  "#E7DDD2",  # Bone
+  "#E2D6CB",  # Almond
+  "#DED0C3",  # Almond 2
+  "#D9C9BB",  # Dun
+  "#D5C3B4",  # Dun 2
+  "#D0BCAC",  # Dun 3
+  "#CCB6A4",  # Dun 4
+  "#C7AF9D",  # Khaki
+  "#C3A995"   # Khaki 2
+),
+
+modern_sequential_grey_07 = c(
+  "#161616",  # Night
+  "#262626",  # Eerie Black
+  "#393939",  # Jet
+  "#525252",  # Davys Gray
+  "#6F6F6F",  # Dim Gray
+  "#8D8D8D",  # Battleship Gray
+  "#A8A8A8",  # Silver
+  "#C6C6C6",  # Silver 2
+  "#E0E0E0",  # Platinum
+  "#F4F4F4"   # White Smoke
+),
+
+modern_sequential_cyan_01 = c(
+  "#343434",  # Jet
+  "#008B8B",  # Dark Cyan
+  "#5CDB95",  # Robin Egg Blue
+  "#007FFF",  # Electric Blue
+  "#E5E4E2",  # Platinum
+  "#F7F7F7",  # Antiflash White
+  "#FFFFFF"   # White
+),
+
+modern_sequential_cyan_02 = c(
+  "#008080",  # Teal
+  "#008080",  # Teal 2
+  "#178C8C",  # Dark Cyan
+  "#2E9797",  # Dark Cyan 2
+  "#46A3A3",  # Verdigris
+  "#5DAEAE",  # Verdigris 2
+  "#74BABA",  # Verdigris 3
+  "#8BC5C5",  # Tiffany Blue
+  "#A2D1D1",  # Light Blue
+  "#B5DADA"   # Light Blue 2
+),
+
+modern_sequential_coral_01 = c(
+  "#FFF8DC",  # Cornsilk
+  "#EDC9AF",  # Desert Sand
+  "#F1C28B",  # Melon
+  "#BC8F8F",  # Old Rose
+  "#DE5D83",  # Blush
+  "#C5617B",  # Rose Red
+  "#B23A7F"   # Amaranth Purple
+),
+
+modern_sequential_coral_02 = c(
+  "#FFEEE5",  # Seashell
+  "#FFDDCC",  # Pale Dogwood
+  "#FFCCB2",  # Apricot
+  "#FFBB99",  # Peach
+  "#FFAA7F",  # Atomic Tangerine
+  "#FF9966",  # Atomic Tangerine 2
+  "#FF884C",  # Coral
+  "#FF7632",  # Orange Crayola
+  "#FF6519",  # Orange Pantone
+  "#FF5400"   # Orange Pantone 2
+),
+
+modern_sequential_coral_03 = c(
+  "#084138",  # Brunswick Green
+  "#0A5D50",  # Brunswick Green 2
+  "#0B7867",  # Pine Green
+  "#0D957F",  # Persian Green
+  "#11B297",  # Keppel
+  "#35C4AC",  # Keppel 2
+  "#61D5C0",  # Turquoise
+  "#95E3D4",  # Tiffany Blue
+  "#C5EFE7",  # Mint Green
+  "#E8F8F5"   # Azure Web
+),
+
+modern_sequential_pink_01 = c(
+  "#536878",  # Paynes Gray
+  "#696969",  # Dim Gray
+  "#C6878F",  # Mountbatten Pink
+  "#BC8F8F",  # Old Rose
+  "#BC8F8F",  # Old Rose 2
+  "#F08080",  # Light Coral
+  "#F5A9B8"   # Coral Pink
+),
+
+modern_sequential_pink_02 = c(
+  "#522E38",  # Eggplant
+  "#602437",  # Wine
+  "#75263F",  # Claret
+  "#8A2846",  # Claret 2
+  "#B9375E",  # Rose Red
+  "#E05780",  # Blush
+  "#FF7AA2",  # Rose Pompadour
+  "#FF9EBB",  # Amaranth Pink
+  "#FFC2D4",  # Orchid Pink
+  "#FFE0E9"   # Mimi Pink
+),
+
+modern_sequential_pink_03 = c(
+  "#592135",  # Tyrian Purple
+  "#68273E",  # Wine
+  "#772C46",  # Quinacridone Magenta
+  "#86324F",  # Quinacridone Magenta 2
+  "#A43D61",  # Raspberry Rose
+  "#BD4C74",  # Fuchsia Rose
+  "#C25B7F",  # Fuchsia Rose 2
+  "#CD7997",  # Thulian Pink
+  "#D897AE",  # Amaranth Pink
+  "#E3B5C5"   # Orchid Pink
+)
+)#' List of all available palettes
 #'
 #' A comprehensive collection of modern color palettes for data visualization,
 #' organized into categorical, diverging, and sequential types.
@@ -383,16 +764,16 @@ palettes_list <- list(
   ),
 
   modern_sequential_red_03 = c(
-    "#441C20",  # Chocolate Cosmos
-    "#542529",  # Caput Mortuum
-    "#5E353A",  # Wine
-    "#70464C",  # Rose Ebony
-    "#89565D",  # Rose Taupe
-    "#A36A71",  # Rose Taupe 2
-    "#B58086",  # Old Rose
-    "#D6A7AE",  # Orchid Pink
-    "#EAC0C6",  # Tea Rose Red
-    "#FCDEDF"   # Misty Rose
+    "#522E38",  # Eggplant
+    "#602437",  # Wine
+    "#75263F",  # Claret
+    "#8A2846",  # Claret 2
+    "#B9375E",  # Rose Red
+    "#E05780",  # Blush
+    "#FF7AA2",  # Rose Pompadour
+    "#FF9EBB",  # Amaranth Pink
+    "#FFC2D4",  # Orchid Pink
+    "#FFE0E9"   # Mimi Pink
   ),
 
   modern_sequential_blue_01 = c(
@@ -436,19 +817,6 @@ palettes_list <- list(
   ),
 
   modern_sequential_blue_05 = c(
-    "#01ACFB",  # Picton Blue
-    "#34BDFC",  # Deep Sky Blue
-    "#5DCAFD",  # Vivid Sky Blue
-    "#7DD5FD",  # Pale Azure
-    "#97DDFD",  # Pale Azure 2
-    "#ACE4FD",  # Uranian Blue
-    "#BDE9FD",  # Uranian Blue 2
-    "#CAEDFD",  # Columbia Blue
-    "#D5F1FD",  # Columbia Blue 2
-    "#DDF4FD"   # Azure Web
-  ),
-
-  modern_sequential_blue_06 = c(
     "#DEEFF7",  # Alice Blue
     "#BEDEEF",  # Columbia Blue
     "#9DCEE7",  # Baby Blue
@@ -497,6 +865,84 @@ palettes_list <- list(
   ),
 
   modern_sequential_green_04 = c(
+    "#2C2111",  # Bistre
+    "#44331A",  # Cafe Noir
+    "#5C4624",  # Kobicha
+    "#83673F",  # Coyote
+    "#A9875A",  # Lion
+    "#CD9F6E",  # Lion 2
+    "#DCAF85",  # Buff
+    "#EAC39C",  # Desert Sand
+    "#F8D6B3",  # Light Orange
+    "#F7E1BE"   # Wheat
+  ),
+
+  modern_sequential_green_05 = c(
+    "#F8F9FA",  # Seasalt
+    "#E9ECEF",  # Antiflash White
+    "#DEE2E6",  # Platinum
+    "#CED4DA",  # French Gray
+    "#ADB5BD",  # French Gray 2
+    "#8D959D",  # Cadet Gray
+    "#6C757D",  # Slate Gray
+    "#495057",  # Outer Space
+    "#343A40",  # Onyx
+    "#212529"   # Eerie Black
+  ),
+
+  modern_sequential_green_06 = c(
+    "#01ACFB",  # Picton Blue
+    "#34BDFC",  # Deep Sky Blue
+    "#5DCAFD",  # Vivid Sky Blue
+    "#7DD5FD",  # Pale Azure
+    "#97DDFD",  # Pale Azure 2
+    "#ACE4FD",  # Uranian Blue
+    "#BDE9FD",  # Uranian Blue 2
+    "#CAEDFD",  # Columbia Blue
+    "#D5F1FD",  # Columbia Blue 2
+    "#DDF4FD"   # Azure Web
+  ),
+
+  modern_sequential_green_07 = c(
+    "#008080",  # Teal
+    "#008080",  # Teal 2
+    "#178C8C",  # Dark Cyan
+    "#2E9797",  # Dark Cyan 2
+    "#46A3A3",  # Verdigris
+    "#5DAEAE",  # Verdigris 2
+    "#74BABA",  # Verdigris 3
+    "#8BC5C5",  # Tiffany Blue
+    "#A2D1D1",  # Light Blue
+    "#B5DADA"   # Light Blue 2
+  ),
+
+  modern_sequential_green_08 = c(
+    "#FFFFFF",  # White
+    "#F5F5F5",  # White Smoke
+    "#EBEBEB",  # Antiflash White
+    "#E0E0E0",  # Platinum
+    "#D6D6D6",  # Timberwolf
+    "#CCCCCC",  # Silver
+    "#C2C2C2",  # Silver 2
+    "#B8B8B8",  # Silver 3
+    "#ADADAD",  # Silver 4
+    "#A3A3A3"   # Silver 5
+  ),
+
+  modern_sequential_green_09 = c(
+    "#C29F21",  # Satin Sheen Gold
+    "#C6A52C",  # Gold Metallic
+    "#C9AA36",  # Gold Metallic 2
+    "#CFB44A",  # Old Gold
+    "#D6BE5F",  # Old Gold 2
+    "#DCC873",  # Citron
+    "#E3D388",  # Flax
+    "#E9DD9C",  # Vanilla
+    "#F0E7B0",  # Vanilla 2
+    "#F6F1C4"   # Lemon Chiffon
+  ),
+
+  modern_sequential_green_10 = c(
     "#E0F2F1",  # Azure Web
     "#B2DFDB",  # Tiffany Blue
     "#80CBC4",  # Tiffany Blue 2
@@ -507,32 +953,6 @@ palettes_list <- list(
     "#00796B",  # Pine Green
     "#00695C",  # Pine Green 2
     "#004D40"   # Brunswick Green
-  ),
-
-  modern_sequential_green_05 = c(
-    "#1C3E35",  # Brunswick Green
-    "#2A5246",  # Brunswick Green 2
-    "#386658",  # Hookers Green
-    "#467A69",  # Hookers Green 2
-    "#548E7A",  # Viridian
-    "#61A28C",  # Zomp
-    "#6FB69D",  # Cambridge Blue
-    "#7DCAAE",  # Cambridge Blue 2
-    "#8BDEC0",  # Tiffany Blue
-    "#99F2D1"   # Aquamarine
-  ),
-
-  modern_sequential_green_06 = c(
-    "#3A4530",  # Black Olive
-    "#5E704A",  # Reseda Green
-    "#7A9360",  # Moss Green
-    "#95B378",  # Olivine
-    "#B2D78E",  # Pistachio
-    "#CCF8A5",  # Tea Green
-    "#D8FAB7",  # Tea Green 2
-    "#E3FCCC",  # Nyanza
-    "#EDFCDD",  # Nyanza 2
-    "#F4FAEE"   # Ivory
   ),
 
   modern_sequential_yellow_01 = c(
