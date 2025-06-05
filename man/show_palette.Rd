@@ -4,7 +4,7 @@
 \alias{show_palette}
 \title{Show Palette Colors}
 \usage{
-show_palette(name, n = NULL, reverse = FALSE)
+show_palette(palette_name, show_codes = NULL)
 }
 \arguments{
 \item{name}{Character string specifying the palette name}

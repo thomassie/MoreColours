@@ -47,6 +47,7 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
 # Steel Blue, Berry, Orange, Red, Green
 show_palette("modern_categorical_01")
 ```
+![modern_categorical_01](assets/modern_categorical_01.png)
 
 **modern_categorical_02** - A 10-color extended palette with rich, earthy tones
 
@@ -54,6 +55,7 @@ show_palette("modern_categorical_01")
 # Old Rose, Gold, Rose Red, Viridian, Kelly Green, Satin Sheen Gold, Poppy, Murray, Xanthous, Dark Moss Green
 show_palette("modern_categorical_02")
 ```
+![modern_categorical_01](assets/modern_categorical_02.png)
 
 **modern_categorical_03** - A 10-color cool-toned palette with blues and warm accents
 
@@ -61,6 +63,7 @@ show_palette("modern_categorical_02")
 # Cerulean, Gold, Indigo Dye, Rufous, Harvest Gold, Grey, Fuchsia Rose, Light Sea Green, Blue Green, Rose Taupe
 show_palette("modern_categorical_03")
 ```
+![modern_categorical_01](assets/modern_categorical_03.png)
 
 **modern_categorical_04** - A 7-color vibrant palette with bold colors
 
@@ -357,12 +360,36 @@ first_three <- get_palette("modern_categorical_02", n = 3)
 
 ``` r
 # Generate PNG files for all palettes
-dir.create("palette_images", showWarnings = FALSE)
 
 for(palette_name in list_palettes()) {
-  png(paste0("palette_images/", palette_name, ".png"), 
-      width = 600, height = 150, res = 100)
-  show_palette(palette_name)
+  colors <- get_palette(palette_name)
+  n_colors <- length(colors)
+  
+  # Calculate width: square size (120px) * number of colors
+  square_size <- 120
+  png_width <- square_size * n_colors
+  
+  png(paste0("assets/", palette_name, ".png"), 
+      width = png_width, height = square_size + 30, res = 100)  # +30 for text space
+  
+  # Clean version - no title, horizontal codes, smaller text
+  par(mar = c(1.5, 0, 0, 0))
+  barplot(rep(1, n_colors), 
+          col = colors, 
+          border = NA, 
+          axes = FALSE,
+          main = "",
+          width = 1,        # Each bar has width 1
+          space = 0)        # No space between bars = perfect squares
+  
+  # Add horizontal hex codes below
+  text(seq(0.5, by = 1, length.out = n_colors), -0.05, 
+       colors, 
+       srt = 0,           # horizontal text
+       adj = c(0.5, 1),   # centered, top-aligned
+       xpd = TRUE, 
+       cex = 0.6)         # smaller text
+  
   dev.off()
 }
 ```
