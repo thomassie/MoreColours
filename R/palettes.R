@@ -494,17 +494,66 @@ list_palettes <- function() {
 #' show_palette("modern_sequential_red_01")
 #' show_palette("modern_sequential_blue_01")
 #' show_palette("modern_sequential_green_01")
-show_palette <- function(name, n = NULL, reverse = FALSE) {
-  colors <- get_palette(name, n = n, reverse = reverse)
 
-  # Create a simple bar plot to show colors
-  graphics::par(mar = c(3, 0.5, 2, 0.5))
-  graphics::barplot(rep(1, length(colors)),
-                    col = colors,
-                    border = NA,
-                    main = paste("Palette:", name),
-                    axes = FALSE,
-                    names.arg = colors,
-                    las = 2,
-                    cex.names = 0.8)
+# show_palette <- function(name, n = NULL, reverse = FALSE) {
+#   colors <- get_palette(name, n = n, reverse = reverse)
+#
+#   # Create a simple bar plot to show colors
+#   graphics::par(mar = c(3, 0.5, 2, 0.5))
+#   graphics::barplot(rep(1, length(colors)),
+#                     col = colors,
+#                     border = NA,
+#                     main = paste("Palette:", name),
+#                     axes = FALSE,
+#                     names.arg = colors,
+#                     las = 2,
+#                     cex.names = 0.8)
+# }
+
+show_palette <- function(palette_name, show_codes = NULL) {
+  if (!palette_name %in% names(palettes_list)) {
+    stop("Palette '", palette_name, "' not found. Use list_palettes() to see available palettes.")
+  }
+
+  colors <- palettes_list[[palette_name]]
+  n_colors <- length(colors)
+
+  # Auto-detect if we're in a PNG device
+  if (is.null(show_codes)) {
+    show_codes <- !identical(names(dev.cur()), "png")
+  }
+
+  if (show_codes) {
+    # Interactive version with title and codes
+    par(mar = c(3, 1, 2, 1))
+    barplot(rep(1, n_colors),
+            col = colors,
+            border = NA,
+            axes = FALSE,
+            main = paste("Palette:", palette_name))
+
+    # Add hex codes
+    text(seq(0.7, by = 1.2, length.out = n_colors), -0.1,
+         colors,
+         srt = 90,
+         adj = c(1, 0.5),
+         xpd = TRUE,
+         cex = 0.8)
+  } else {
+    # Clean PNG version - no title, horizontal codes, smaller text
+    par(mar = c(1.5, 0, 0, 0))
+    barplot(rep(1, n_colors),
+            col = colors,
+            border = NA,
+            axes = FALSE,
+            main = "")
+
+    # Add horizontal hex codes below
+    text(seq(0.7, by = 1.2, length.out = n_colors), -0.05,
+         colors,
+         srt = 0,  # horizontal
+         adj = c(0.5, 1),  # centered horizontally, top aligned
+         xpd = TRUE,
+         cex = 0.6)  # smaller text
+  }
 }
