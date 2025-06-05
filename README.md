@@ -102,12 +102,16 @@ show_palette("modern_categorical_06")
 show_palette("modern_diverging_01")
 ```
 
+<img src="assets/modern_diverging_01.png" height="100" alt="modern_diverging_01"><br>
+
 **modern_diverging_02** - A 7-color red-to-green diverging palette through yellow
 
 ``` r
 # Imperial Red to Orange Crayola to Carrot Orange to Saffron to Pistachio to Zomp to Paynes Gray
 show_palette("modern_diverging_02")
 ```
+
+<img src="assets/modern_diverging_02.png" height="100" alt="modern_diverging_02"><br>
 
 **modern_diverging_03** - A 7-color green-to-orange diverging palette through yellow
 
@@ -116,12 +120,16 @@ show_palette("modern_diverging_02")
 show_palette("modern_diverging_03")
 ```
 
+<img src="assets/modern_diverging_03.png" height="100" alt="modern_diverging_03"><br>
+
 **modern_diverging_04** - A 7-color orange-to-pink diverging palette with neutral center
 
 ``` r
 # Persimmon to Orange Crayola to Atomic Tangerine to Linen to Baker Miller Pink to Bright Pink Crayola to Cerise
 show_palette("modern_diverging_04")
 ```
+
+<img src="assets/modern_diverging_04.png" height="100" alt="modern_diverging_04"><br>
 
 **modern_diverging_05** - A 7-color teal-to-orange diverging palette through vanilla
 
@@ -130,12 +138,16 @@ show_palette("modern_diverging_04")
 show_palette("modern_diverging_05")
 ```
 
+<img src="assets/modern_diverging_05.png" height="100" alt="modern_diverging_05"><br>
+
 **modern_diverging_06** - A 7-color red-to-magenta diverging palette through white
 
 ``` r
 # Chili Red to Pumpkin to Atomic Tangerine to White to Sky Magenta to Mulberry to Quinacridone Magenta
 show_palette("modern_diverging_06")
 ```
+
+<img src="assets/modern_diverging_06.png" height="100" alt="modern_diverging_06"><br>
 
 **modern_diverging_07** - A 7-color dark green-to-red diverging palette through blue
 
@@ -144,12 +156,16 @@ show_palette("modern_diverging_06")
 show_palette("modern_diverging_07")
 ```
 
+<img src="assets/modern_diverging_07.png" height="100" alt="modern_diverging_07"><br>
+
 **modern_diverging_08** - A 7-color black-to-red diverging palette through neutrals
 
 ``` r
 # Smoky Black to Davy's Gray to Silver to White Smoke to Off Red RGB to Engineering Orange to Turkey Red
 show_palette("modern_diverging_08")
 ```
+
+<img src="assets/modern_diverging_08.png" height="100" alt="modern_diverging_08"><br>
 
 **modern_diverging_09** - A 7-color blue-to-red diverging palette through platinum
 
@@ -158,6 +174,8 @@ show_palette("modern_diverging_08")
 show_palette("modern_diverging_09")
 ```
 
+<img src="assets/modern_diverging_09.png" height="100" alt="modern_diverging_09"><br>
+
 **modern_diverging_10** - A 7-color prussian blue-to-brown diverging palette through neutrals
 
 ``` r
@@ -165,12 +183,16 @@ show_palette("modern_diverging_09")
 show_palette("modern_diverging_10")
 ```
 
+<img src="assets/modern_diverging_10.png" height="100" alt="modern_diverging_10"><br>
+
 **modern_diverging_11** - A 7-color caribbean-to-tangerine diverging palette through neutrals
 
 ``` r
 # Caribbean Current to Dark Cyan to Tiffany Blue to Alice Blue to Pale Dogwood to Melon to Atomic Tangerine
 show_palette("modern_diverging_11")
 ```
+
+<img src="assets/modern_diverging_11.png" height="100" alt="modern_diverging_11"><br>
 
 ### Sequential Palettes
 
