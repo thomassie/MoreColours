@@ -1,4 +1,5 @@
 <img src="/assets/MoreColours_HexLogo_QuicksandRegular400.png" align="right" height="139"/>
+<br>
 
 # MoreColours
 
@@ -8,7 +9,7 @@ A professional R package providing curated color palettes for data visualization
 
 ``` r
 # Install from GitHub (once uploaded)
-devtools::install_github("yourusername/MoreColours")
+devtools::install_github("thomassie/MoreColours")
 
 # Or install locally
 devtools::install()
