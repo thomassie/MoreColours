@@ -203,12 +203,25 @@ show_palette("modern_diverging_11")
 show_palette("modern_sequential_red_01")
 ```
 
+<img src="assets/modern_sequential_red_01.png" height="100" alt="modern_sequential_red_01"><br>
+
+**modern_sequential_red_02** - A 7-color deep red sequential palette
+
+``` r
+# Cardinal to Madder to Claret to Claret 2 to Tyrian Purple to Dark Purple to Russian Violet
+show_palette("modern_sequential_red_02")
+```
+
+<img src="assets/modern_sequential_red_02.png" height="100" alt="modern_sequential_red_02"><br>
+
 **modern_sequential_blue_01** - A 10-color sequential blue palette from dark to light
 
 ``` r
 # Prussian Blue to Indigo Dye to UCLA Blue to Cerulean to Air Force Blue to Air Superiority Blue to Sky Blue to Light Blue
 show_palette("modern_sequential_blue_01")
 ```
+
+<img src="assets/modern_sequential_blue_01.png" height="100" alt="modern_sequential_blue_01"><br>
 
 **modern_sequential_blue_02** - A 10-color blue-to-aqua sequential palette
 
@@ -217,47 +230,7 @@ show_palette("modern_sequential_blue_01")
 show_palette("modern_sequential_blue_02")
 ```
 
-**modern_sequential_green_01** - A 10-color green-to-yellow sequential palette
-
-``` r
-# Viridian to Sea Green to Kelly Green to Apple Green to Yellow Green to Pear to Yellow
-show_palette("modern_sequential_green_01")
-```
-
-**modern_sequential_green_02** - A 10-color pure green sequential palette
-
-``` r
-# Brunswick Green to Castleton Green to Dartmouth Green to Dark Spring Green to Shamrock Green to Mint to Aquamarine to Celadon to Honeydew to Mint Cream
-show_palette("modern_sequential_green_02")
-```
-
-**modern_sequential_green_03** - A 10-color natural green sequential palette
-
-``` r
-# Dark Green to Cal Poly Green to Fern Green to Asparagus to Mantis to Olivine to Celadon to Tea Green to Honeydew
-show_palette("modern_sequential_green_03")
-```
-
-**modern_sequential_yellow_01** - A 10-color orange-to-yellow sequential palette
-
-``` r
-# Safety Orange to Dark Orange Web to Princeton Orange to Orange Peel to Orange Web to Selective Yellow to Mikado Yellow to Jonquil to School Bus Yellow to Naples Yellow
-show_palette("modern_sequential_yellow_01")
-```
-
-**modern_sequential_grey_01** - A 10-color grey sequential palette from dark to light
-
-``` r
-# Dim Gray to Gray to Battleship Gray to Taupe Gray to Silver to Timberwolf to Isabelline
-show_palette("modern_sequential_grey_01")
-```
-
-**modern_sequential_cyan_01** - A 7-color cyan-to-white sequential palette
-
-``` r
-# Jet to Dark Cyan to Robin Egg Blue to Electric Blue to Platinum to Antiflash White to White
-show_palette("modern_sequential_cyan_01")
-```
+<img src="assets/modern_sequential_blue_02.png" height="100" alt="modern_sequential_blue_02"><br>
 
 **modern_sequential_blue_03** - A 7-color blue-grey sequential palette from light to dark
 
@@ -266,12 +239,70 @@ show_palette("modern_sequential_cyan_01")
 show_palette("modern_sequential_blue_03")
 ```
 
+<img src="assets/modern_sequential_blue_03.png" height="100" alt="modern_sequential_blue_03"><br>
+
 **modern_sequential_blue_04** - A 7-color deep blue sequential palette
 
 ``` r
 # Federal Blue to Penn Blue to Yale Blue to Lapis Lazuli to Cerulean to Blue Green to Pacific Cyan
 show_palette("modern_sequential_blue_04")
 ```
+
+<img src="assets/modern_sequential_blue_04.png" height="100" alt="modern_sequential_blue_04"><br>
+
+**modern_sequential_green_01** - A 10-color green-to-yellow sequential palette
+
+``` r
+# Viridian to Sea Green to Kelly Green to Apple Green to Yellow Green to Pear to Yellow
+show_palette("modern_sequential_green_01")
+```
+
+<img src="assets/modern_sequential_green_01.png" height="100" alt="modern_sequential_green_01"><br>
+
+**modern_sequential_green_02** - A 10-color pure green sequential palette
+
+``` r
+# Brunswick Green to Castleton Green to Dartmouth Green to Dark Spring Green to Shamrock Green to Mint to Aquamarine to Celadon to Honeydew to Mint Cream
+show_palette("modern_sequential_green_02")
+```
+
+<img src="assets/modern_sequential_green_02.png" height="100" alt="modern_sequential_green_02"><br>
+
+**modern_sequential_green_03** - A 10-color natural green sequential palette
+
+``` r
+# Dark Green to Cal Poly Green to Fern Green to Asparagus to Mantis to Olivine to Celadon to Tea Green to Honeydew
+show_palette("modern_sequential_green_03")
+```
+
+<img src="assets/modern_sequential_green_03.png" height="100" alt="modern_sequential_green_03"><br>
+
+**modern_sequential_yellow_01** - A 10-color orange-to-yellow sequential palette
+
+``` r
+# Safety Orange to Dark Orange Web to Princeton Orange to Orange Peel to Orange Web to Selective Yellow to Mikado Yellow to Jonquil to School Bus Yellow to Naples Yellow
+show_palette("modern_sequential_yellow_01")
+```
+
+<img src="assets/modern_sequential_yellow_01.png" height="100" alt="modern_sequential_yellow_01"><br>
+
+**modern_sequential_grey_01** - A 10-color grey sequential palette from dark to light
+
+``` r
+# Dim Gray to Gray to Battleship Gray to Taupe Gray to Silver to Timberwolf to Isabelline
+show_palette("modern_sequential_grey_01")
+```
+
+<img src="assets/modern_sequential_grey_01.png" height="100" alt="modern_sequential_grey_01"><br>
+
+**modern_sequential_cyan_01** - A 7-color cyan-to-white sequential palette
+
+``` r
+# Jet to Dark Cyan to Robin Egg Blue to Electric Blue to Platinum to Antiflash White to White
+show_palette("modern_sequential_cyan_01")
+```
+
+<img src="assets/modern_sequential_cyan_01.png" height="100" alt="modern_sequential_cyan_01"><br>
 
 **modern_sequential_coral_01** - A 7-color warm coral sequential palette
 
@@ -280,6 +311,8 @@ show_palette("modern_sequential_blue_04")
 show_palette("modern_sequential_coral_01")
 ```
 
+<img src="assets/modern_sequential_coral_01.png" height="100" alt="modern_sequential_coral_01"><br>
+
 **modern_sequential_pink_01** - A 7-color pink-grey sequential palette
 
 ``` r
@@ -287,12 +320,7 @@ show_palette("modern_sequential_coral_01")
 show_palette("modern_sequential_pink_01")
 ```
 
-**modern_sequential_red_02** - A 7-color deep red sequential palette
-
-``` r
-# Cardinal to Madder to Claret to Claret 2 to Tyrian Purple to Dark Purple to Russian Violet
-show_palette("modern_sequential_red_02")
-```
+<img src="assets/modern_sequential_pink_01.png" height="100" alt="modern_sequential_pink_01"><br>
 
 ## Usage Examples
 
