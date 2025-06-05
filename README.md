@@ -47,6 +47,7 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
 # Steel Blue, Berry, Orange, Red, Green
 show_palette("modern_categorical_01")
 ```
+
 <img src="assets/modern_categorical_01.png" height="100" alt="modern_categorical_01"><br>
 
 **modern_categorical_02** - A 10-color extended palette with rich, earthy tones
@@ -55,6 +56,7 @@ show_palette("modern_categorical_01")
 # Old Rose, Gold, Rose Red, Viridian, Kelly Green, Satin Sheen Gold, Poppy, Murray, Xanthous, Dark Moss Green
 show_palette("modern_categorical_02")
 ```
+
 <img src="assets/modern_categorical_02.png" height="100" alt="modern_categorical_02"><br>
 
 **modern_categorical_03** - A 10-color cool-toned palette with blues and warm accents
@@ -63,6 +65,7 @@ show_palette("modern_categorical_02")
 # Cerulean, Gold, Indigo Dye, Rufous, Harvest Gold, Grey, Fuchsia Rose, Light Sea Green, Blue Green, Rose Taupe
 show_palette("modern_categorical_03")
 ```
+
 <img src="assets/modern_categorical_03.png" height="100" alt="modern_categorical_03"><br>
 
 **modern_categorical_04** - A 7-color vibrant palette with bold colors
@@ -72,12 +75,16 @@ show_palette("modern_categorical_03")
 show_palette("modern_categorical_04")
 ```
 
+<img src="assets/modern_categorical_04.png" height="100" alt="modern_categorical_04"><br>
+
 **modern_categorical_05** - A 7-color earthy palette with natural tones
 
 ``` r
 # Gold Metallic, Lion, Khaki, Cambridge Blue, Peach, Flame, Dim Gray
 show_palette("modern_categorical_05")
 ```
+
+<img src="assets/modern_categorical_05.png" height="100" alt="modern_categorical_05"><br>
 
 **modern_categorical_06** - A 7-color dynamic palette with high contrast
 
