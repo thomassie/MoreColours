@@ -3,15 +3,15 @@
 \docType{data}
 \name{palettes_list}
 \alias{palettes_list}
-\title{Color Palettes Data}
+\title{List of all available palettes}
 \format{
-A list of named character vectors containing hex color codes
+A named list where each element is a character vector of hex color codes
 }
 \usage{
 palettes_list
 }
 \description{
-A list containing all available color palettes in the package.
-Each palette is a named vector of hex color codes.
+A comprehensive collection of modern color palettes for data visualization,
+organized into categorical, diverging, and sequential types.
 }
 \keyword{datasets}

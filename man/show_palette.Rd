@@ -2,37 +2,40 @@
 % Please edit documentation in R/palettes.R
 \name{show_palette}
 \alias{show_palette}
-\title{Show Palette Colors}
+\title{Show Color Palette}
 \usage{
-show_palette(palette_name, show_codes = NULL)
+show_palette(
+  name,
+  n = NULL,
+  type = "discrete",
+  reverse = FALSE,
+  show_hex = TRUE
+)
 }
 \arguments{
 \item{name}{Character string specifying the palette name}
 
-\item{n}{Integer specifying number of colors to display (optional)}
+\item{n}{Integer specifying the number of colors to display (optional)}
+
+\item{type}{Character string specifying interpolation type: "discrete" or "continuous"}
 
 \item{reverse}{Logical indicating whether to reverse the palette order}
+
+\item{show_hex}{Logical indicating whether to display hex codes below colors}
 }
 \value{
-NULL (creates a plot)
+None (creates a plot)
 }
 \description{
-Display a palette visually using base R plotting.
+Display a color palette visually in the plot window.
 }
 \examples{
-# Show categorical palettes
+# Show a basic palette
 show_palette("modern_categorical_01")
-show_palette("modern_categorical_02")
-show_palette("modern_categorical_03")
 
-# Show diverging palettes
-show_palette("modern_diverging_01")
-show_palette("modern_diverging_02")
-show_palette("modern_diverging_03")
-show_palette("modern_diverging_04")
+# Show more colors through interpolation
+show_palette("modern_sequential_blue_01", n = 15, type = "continuous")
 
-# Show sequential palettes
-show_palette("modern_sequential_red_01")
-show_palette("modern_sequential_blue_01")
-show_palette("modern_sequential_green_01")
+# Show without hex codes
+show_palette("modern_diverging_01", show_hex = FALSE)
 }

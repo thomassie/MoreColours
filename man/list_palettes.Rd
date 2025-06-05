@@ -4,14 +4,24 @@
 \alias{list_palettes}
 \title{List Available Palettes}
 \usage{
-list_palettes()
+list_palettes(type = "all")
+}
+\arguments{
+\item{type}{Character string to filter palettes by type: "categorical", "diverging", "sequential", or "all"}
 }
 \value{
-A character vector of palette names
+Character vector of palette names
 }
 \description{
-Display all available color palettes in the package.
+Get a character vector of all available palette names, optionally filtered by type.
 }
 \examples{
+# List all palettes
 list_palettes()
+
+# List only categorical palettes
+list_palettes("categorical")
+
+# List only sequential palettes
+list_palettes("sequential")
 }

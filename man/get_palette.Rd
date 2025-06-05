@@ -9,43 +9,30 @@ get_palette(name, n = NULL, type = "discrete", reverse = FALSE, alpha = NULL)
 \arguments{
 \item{name}{Character string specifying the palette name}
 
-\item{n}{Integer specifying number of colors to return (optional)}
+\item{n}{Integer specifying the number of colors to return (optional)}
 
-\item{type}{Character string specifying palette type: "discrete" or "continuous"}
+\item{type}{Character string specifying interpolation type: "discrete" or "continuous"}
 
 \item{reverse}{Logical indicating whether to reverse the palette order}
 
 \item{alpha}{Numeric value between 0 and 1 for transparency (optional)}
 }
 \value{
-A character vector of hex color codes
+Character vector of hex color codes
 }
 \description{
-Retrieve a color palette by name with optional parameters for customization.
+Retrieve a specific color palette by name with optional modifications.
 }
 \examples{
-# Get categorical palettes
+# Get a basic palette
 get_palette("modern_categorical_01")
-get_palette("modern_categorical_02")
-get_palette("modern_categorical_03")
 
-# Get diverging palettes
-get_palette("modern_diverging_01")
-get_palette("modern_diverging_02")
-get_palette("modern_diverging_03")
-get_palette("modern_diverging_04")
+# Get more colors through interpolation
+get_palette("modern_sequential_blue_01", n = 15, type = "continuous")
 
-# Get sequential palettes
-get_palette("modern_sequential_red_01")
-get_palette("modern_sequential_blue_01")
-get_palette("modern_sequential_green_01")
+# Reverse palette order
+get_palette("modern_diverging_01", reverse = TRUE)
 
-# Get first 3 colors
-get_palette("modern_categorical_01", n = 3)
-
-# Get palette in reverse order
-get_palette("modern_categorical_01", reverse = TRUE)
-
-# Get palette with transparency
-get_palette("modern_categorical_01", alpha = 0.7)
+# Add transparency
+get_palette("modern_categorical_02", alpha = 0.7)
 }

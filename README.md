@@ -658,7 +658,7 @@ first_three <- get_palette("modern_categorical_02", n = 3)
 generate_all_pngs()
 
 # Generate with custom settings
-generate_all_pngs(output_dir = "my_assets", width = 100, height = 100)
+generate_all_pngs(output_dir = "assets", width = 100, height = 100)
 ```
 
 ### Integration with Other Packages
