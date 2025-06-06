@@ -1,3 +1,7 @@
+<img src="/assets/MoreColours_HexLogo_QuicksandRegular400.png" align="right" height="139"/>
+<br>
+<br>
+
 # MoreColours
 
 A professional R package providing curated color palettes for data visualization.
