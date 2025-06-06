@@ -188,7 +188,7 @@ palettes_list <- list(
     "#EE8959"   # Coral
   ),
 
-  more_categorical16 = c(
+  more_categorical_16 = c(
     "#EF3E36",  # Vermilion
     "#17BEBB",  # Verdigris
     "#F8F32B",  # Aureolin
