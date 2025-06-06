@@ -1,7 +1,3 @@
-<img src="/assets/MoreColours_HexLogo_QuicksandRegular400.png" align="right" height="139"/>
-<br>
-<br>
-
 # MoreColours
 
 A professional R package providing curated color palettes for data visualization.
@@ -39,565 +35,612 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
 
 ## Available Palettes
 
-### Categorical Palettes (15 palettes)
+### Categorical Palettes (21 palettes)
 
-**modern_categorical_01** - A 5-color palette optimized for categorical data
+**modern_categorical_01**
 
 ``` r
-# Steel Blue, Berry, Orange, Red, Green
+# Steel Blue to Berry to Orange to Red to Green
 show_palette("modern_categorical_01")
 ```
 
-<img src="assets/modern_categorical_01.png" height="100" alt="modern_categorical_01"><br>
-
-**modern_categorical_02** - A 10-color extended palette
+**modern_categorical_02**
 
 ``` r
-# Old Rose, Gold, Rose Red, Viridian, Kelly Green, Satin Sheen Gold, Poppy, Murray, Xanthous, Dark Moss Green
+# Old Rose to Gold to Rose Red to Viridian to Kelly Green to Satin Sheen Gold to Poppy to Murray to Xanthous to Dark Moss Green
 show_palette("modern_categorical_02")
 ```
 
-<img src="assets/modern_categorical_02.png" height="100" alt="modern_categorical_02"><br>
-
-**modern_categorical_03** - A 10-color soft pastel palette
+**modern_categorical_03**
 
 ``` r
-# Champagne Pink, Linen, Misty Rose, Mimi Pink, Light Cyan, Mint Cream, Isabelline, Alice Blue, Columbia Blue, Powder Blue
+# Champagne Pink to Linen to Misty Rose to Mimi Pink to Light Cyan to Mint Cream to Isabelline to Alice Blue to Columbia Blue to Powder Blue
 show_palette("modern_categorical_03")
 ```
 
-<img src="assets/modern_categorical_03.png" height="100" alt="modern_categorical_03"><br>
-
-**modern_categorical_04** - A 7-color vibrant palette with bold colors
+**modern_categorical_04**
 
 ``` r
-# Persian Green, Cerulean, Rebecca Purple, Plum, Imperial Red, Coral, Naples Yellow
+# Persian Green to Cerulean to Rebecca Purple to Plum to Imperial Red to Coral to Naples Yellow
 show_palette("modern_categorical_04")
 ```
 
-<img src="assets/modern_categorical_04.png" height="100" alt="modern_categorical_04"><br>
-
-**modern_categorical_05** - A 7-color warm palette with metallic tones
+**modern_categorical_05**
 
 ``` r
-# Gold Metallic, Lion, Khaki, Cambridge Blue, Peach, Flame, Dim Gray
+# Gold Metallic to Lion to Khaki to Cambridge Blue to Peach to Flame to Dim Gray
 show_palette("modern_categorical_05")
 ```
 
-<img src="assets/modern_categorical_05.png" height="100" alt="modern_categorical_05"><br>
-
-**modern_categorical_06** - A 7-color dynamic palette with high contrast
+**modern_categorical_06**
 
 ``` r
-# Marian Blue, Xanthous, Copper, Mint, Folly, Deep Sky Blue, Tomato
+# Marian Blue to Xanthous to Copper to Mint to Folly to Deep Sky Blue to Tomato
 show_palette("modern_categorical_06")
 ```
 
-<img src="assets/modern_categorical_06.png" height="100" alt="modern_categorical_06"><br>
-
-**modern_categorical_07** - A 10-color robust palette with earthy and vibrant tones
+**modern_categorical_07**
 
 ``` r
-# Cardinal, Davys Gray, Xanthous, Viridian, Asparagus, Lapis Lazuli, Old Gold, Indian Red, Air Force Blue, Emerald
+# Cardinal to Davys Gray to Xanthous to Viridian to Asparagus to Lapis Lazuli to Old Gold to Indian Red to Air Force Blue to Emerald
 show_palette("modern_categorical_07")
 ```
 
-<img src="assets/modern_categorical_07.png" height="100" alt="modern_categorical_07"><br>
-
-**modern_categorical_08** - A 10-color nature-inspired palette with greens and warm accents
+**modern_categorical_08**
 
 ``` r
-# Dark Pastel Green, Davys Gray, Pumpkin, Pear, Robin Egg Blue, Jungle Green, Pine Green, Moss Green, Blush, Lapis Lazuli
+# Dark Pastel Green to Davys Gray to Pumpkin to Pear to Robin Egg Blue to Jungle Green to Pine Green to Moss Green to Blush to Lapis Lazuli
 show_palette("modern_categorical_08")
 ```
 
-<img src="assets/modern_categorical_08.png" height="100" alt="modern_categorical_08"><br>
-
-**modern_categorical_09** - A 10-color soft pastel palette (identical to modern_categorical_03)
+**modern_categorical_09**
 
 ``` r
-# Champagne Pink, Linen, Misty Rose, Mimi Pink, Light Cyan, Mint Cream, Isabelline, Alice Blue, Columbia Blue, Powder Blue
+# Champagne Pink to Linen to Misty Rose to Mimi Pink to Light Cyan to Mint Cream to Isabelline to Alice Blue to Columbia Blue to Powder Blue
 show_palette("modern_categorical_09")
 ```
 
-<img src="assets/modern_categorical_09.png" height="100" alt="modern_categorical_09"><br>
-
-**modern_categorical_10** - A 10-color bright and cheerful palette
+**modern_categorical_10**
 
 ``` r
-# Jasmine, Yellow Green, Light Sky Blue, Light Red, Lavender Pink, Light Green, Mauve, Atomic Tangerine, Tiffany Blue, Periwinkle
+# Jasmine to Yellow Green to Light Sky Blue to Light Red to Lavender Pink to Light Green to Mauve to Atomic Tangerine to Tiffany Blue to Periwinkle
 show_palette("modern_categorical_10")
 ```
 
-<img src="assets/modern_categorical_10.png" height="100" alt="modern_categorical_10"><br>
-
-**modern_categorical_11** - A 10-color delicate spring palette
+**modern_categorical_11**
 
 ``` r
-# Cherry Blossom Pink, Uranian Blue, Nyanza, Lavender Blush, Non Photo Blue, Lemon Chiffon, Periwinkle, Pale Dogwood, Nyanza 2, Pale Purple
+# Cherry Blossom Pink to Uranian Blue to Nyanza to Lavender Blush to Non Photo Blue to Lemon Chiffon to Periwinkle to Pale Dogwood to Nyanza 2 to Pale Purple
 show_palette("modern_categorical_11")
 ```
 
-<img src="assets/modern_categorical_11.png" height="100" alt="modern_categorical_11"><br>
-
-**modern_categorical_12** - A 10-color dreamy pastel palette
+**modern_categorical_12**
 
 ``` r
-# Columbia Blue, Peach Yellow, Plum Web, Periwinkle, Tea Green, Pale Dogwood, Amaranth Pink, Cherry Blossom Pink, Lilac, Peach
+# Columbia Blue to Peach Yellow to Plum Web to Periwinkle to Tea Green to Pale Dogwood to Amaranth Pink to Cherry Blossom Pink to Lilac to Peach
 show_palette("modern_categorical_12")
 ```
 
-<img src="assets/modern_categorical_12.png" height="100" alt="modern_categorical_12"><br>
-
-**modern_categorical_13** - A 10-color vibrant primary palette
+**modern_categorical_13**
 
 ``` r
-# Red, Azure, Rose, Yellow, Violet, Green, Cyan RGB, Blue, Fuchsia, Princeton Orange
+# Red to Azure to Rose to Yellow to Violet to Green to Cyan RGB to Blue to Fuchsia to Princeton Orange
 show_palette("modern_categorical_13")
 ```
 
-<img src="assets/modern_categorical_13.png" height="100" alt="modern_categorical_13"><br>
-
-**modern_categorical_14** - A 10-color balanced earth and sky palette
+**modern_categorical_14**
 
 ``` r
-# Avocado, Jonquil, Lapis Lazuli, Mindaro, Pumpkin, Celestial Blue, Red Violet, Yellow Green, Orange Peel, Murrey
+# Avocado to Jonquil to Lapis Lazuli to Mindaro to Pumpkin to Celestial Blue to Red Violet to Yellow Green to Orange Peel to Murrey
 show_palette("modern_categorical_14")
 ```
 
-<img src="assets/modern_categorical_14.png" height="100" alt="modern_categorical_14"><br>
-
-**modern_categorical_15** - A 10-color sophisticated earth palette
+**modern_categorical_15**
 
 ``` r
-# Myrtle Green, Saffron, Persian Green, Sandy Brown, Dark Slate Gray, Burnt Sienna, Olivine, Earth Yellow, Charcoal, Coral
+# Myrtle Green to Saffron to Persian Green to Sandy Brown to Dark Slate Gray to Burnt Sienna to Olivine to Earth Yellow to Charcoal to Coral
 show_palette("modern_categorical_15")
 ```
 
-<img src="assets/modern_categorical_15.png" height="100" alt="modern_categorical_15"><br>
+**modern_categorical16**
 
-### Diverging Palettes (18 palettes)
+``` r
+# Vermilion to Verdigris to Aureolin to Razzle Dazzle Rose to Sgbus Green to Safety Orange to Neon Blue to Rose to Erin
+show_palette("modern_categorical16")
+```
 
-**modern_diverging_01** - A 7-color red-to-blue diverging palette with neutral center
+**modern_categorical_17**
+
+``` r
+# Old Gold to Delft Blue to Sea Green to Cordovan to Dark Moss Green to Violet JTC to Caput Mortuum to Kelly Green to Drab Dark Brown
+show_palette("modern_categorical_17")
+```
+
+**modern_categorical_18**
+
+``` r
+# Paynes Gray to Citron to Carrot Orange to Feldgrau to Old Rose to Moss Green to Old Gold to Viridian to Moss Green 2 to Olivine
+show_palette("modern_categorical_18")
+```
+
+**modern_categorical_19**
+
+``` r
+# Cardinal to Davys Gray to Xanthous to Viridian to Asparagus to Lapis Lazuli to Old Gold to Indian Red to Air Force Blue to Emerald
+show_palette("modern_categorical_19")
+```
+
+**modern_categorical_20**
+
+``` r
+# Periwinkle to Tea Green to Dutch White to Ash Gray to Pale Dogwood to Lemon Chiffon to Tea Green 2 to French Gray
+show_palette("modern_categorical_20")
+```
+
+**modern_categorical_21**
+
+``` r
+# Amaranth Purple to Hookers Green to Ecru to Butterscotch to Charcoal to Alloy Orange to Blue Munsell to Viridian
+show_palette("modern_categorical_21")
+```
+
+### Diverging Palettes (24 palettes)
+
+**modern_diverging_01**
 
 ``` r
 # Claret to Bittersweet to Cherry Blossom Pink to Honeydew to Non Photo Blue to Cerulean to Berkeley Blue
 show_palette("modern_diverging_01")
 ```
 
-<img src="assets/modern_diverging_01.png" height="100" alt="modern_diverging_01"><br>
-
-**modern_diverging_02** - A 7-color red-to-green diverging palette
+**modern_diverging_02**
 
 ``` r
 # Imperial Red to Orange Crayola to Carrot Orange to Saffron to Moss Green to Zomp to Paynes Gray
 show_palette("modern_diverging_02")
 ```
 
-<img src="assets/modern_diverging_02.png" height="100" alt="modern_diverging_02"><br>
-
-**modern_diverging_03** - A 7-color dark-to-orange diverging palette
+**modern_diverging_03**
 
 ``` r
 # Charcoal to Myrtle Green to Persian Green to Olivine to Saffron to Sandy Brown to Burnt Sienna
 show_palette("modern_diverging_03")
 ```
 
-<img src="assets/modern_diverging_03.png" height="100" alt="modern_diverging_03"><br>
-
-**modern_diverging_04** - A 7-color orange-to-pink diverging palette
+**modern_diverging_04**
 
 ``` r
 # Persimmon to Orange Crayola to Atomic Tangerine to Linen to Baker Miller Pink to Bright Pink Crayola to Cerise
 show_palette("modern_diverging_04")
 ```
 
-<img src="assets/modern_diverging_04.png" height="100" alt="modern_diverging_04"><br>
-
-**modern_diverging_05** - A 7-color teal-to-orange diverging palette
+**modern_diverging_05**
 
 ``` r
 # Midnight Green to Dark Cyan to Tiffany Blue to Vanilla to Gamboge to Alloy Orange to Rust
 show_palette("modern_diverging_05")
 ```
 
-<img src="assets/modern_diverging_05.png" height="100" alt="modern_diverging_05"><br>
-
-**modern_diverging_06** - A 7-color red-to-purple diverging palette through white
+**modern_diverging_06**
 
 ``` r
 # Chili Red to Pumpkin to Atomic Tangerine to White to Sky Magenta to Mulberry to Palatinate
 show_palette("modern_diverging_06")
 ```
 
-<img src="assets/modern_diverging_06.png" height="100" alt="modern_diverging_06"><br>
-
-**modern_diverging_07** - A 7-color green-to-red diverging palette
+**modern_diverging_07**
 
 ``` r
 # Dark Green to Pine Green to Keppel to Non Photo Blue to Fire Engine Red to Imperial Red to Madder
 show_palette("modern_diverging_07")
 ```
 
-<img src="assets/modern_diverging_07.png" height="100" alt="modern_diverging_07"><br>
-
-**modern_diverging_08** - A 8-color black-to-red diverging palette
+**modern_diverging_08**
 
 ``` r
 # Smoky Black to Davy's Gray to Silver to White Smoke to Engineering Orange to Turkey Red to Off Red RGB
 show_palette("modern_diverging_08")
 ```
 
-<img src="assets/modern_diverging_08.png" height="100" alt="modern_diverging_08"><br>
-
-**modern_diverging_09** - A 7-color blue-to-red diverging palette
+**modern_diverging_09**
 
 ``` r
 # Indigo Dye to United Nations Blue to Green Blue to Platinum to Tomato to Red CMYK to Carmine
 show_palette("modern_diverging_09")
 ```
 
-<img src="assets/modern_diverging_09.png" height="100" alt="modern_diverging_09"><br>
-
-**modern_diverging_10** - A 7-color blue-to-brown diverging palette
+**modern_diverging_10**
 
 ``` r
 # Prussian Blue to Cambridge Blue to Caribbean Current to Papaya Whip to Hunyadi Yellow to Brown to Seal Brown
 show_palette("modern_diverging_10")
 ```
 
-<img src="assets/modern_diverging_10.png" height="100" alt="modern_diverging_10"><br>
-
-**modern_diverging_11** - A 7-color caribbean-to-tangerine diverging palette
+**modern_diverging_11**
 
 ``` r
 # Caribbean Current to Dark Cyan to Tiffany Blue to Alice Blue to Pale Dogwood to Melon to Atomic Tangerine
 show_palette("modern_diverging_11")
 ```
 
-<img src="assets/modern_diverging_11.png" height="100" alt="modern_diverging_11"><br>
-
-**modern_diverging_12** - A 7-color red-to-grey diverging palette
+**modern_diverging_12**
 
 ``` r
 # Claret to Redwood to Salmon Pink to White to Timberwolf to Pale Dogwood to Paynes Gray
 show_palette("modern_diverging_12")
 ```
 
-<img src="assets/modern_diverging_12.png" height="100" alt="modern_diverging_12"><br>
-
-**modern_diverging_13** - A 7-color blue-to-green diverging palette
+**modern_diverging_13**
 
 ``` r
 # Yale Blue to Green Blue to United Nations Blue to Platinum to Pigment Green to Forest Green to Cal Poly Green
 show_palette("modern_diverging_13")
 ```
 
-<img src="assets/modern_diverging_13.png" height="100" alt="modern_diverging_13"><br>
-
-**modern_diverging_14** - A 7-color pink-to-cyan diverging palette
+**modern_diverging_14**
 
 ``` r
 # Tea Rose Red to Tea Rose Red 2 to Lavender Blush to Seasalt to Mint Green to Light Cyan to Non Photo Blue
 show_palette("modern_diverging_14")
 ```
 
-<img src="assets/modern_diverging_14.png" height="100" alt="modern_diverging_14"><br>
-
-**modern_diverging_15** - A 7-color warm-to-cool earth diverging palette
+**modern_diverging_15**
 
 ``` r
 # Buff to Desert Sand to Champagne Pink to Alabaster to Ash Gray to Sage to Reseda Green
 show_palette("modern_diverging_15")
 ```
 
-<img src="assets/modern_diverging_15.png" height="100" alt="modern_diverging_15"><br>
-
-**modern_diverging_16** - A 7-color blue-to-red diverging palette
+**modern_diverging_16**
 
 ``` r
 # Royal Blue Traditional to Cobalt Blue to Blue NCS to Timberwolf to Folly to Cornell Red to Falu Red
 show_palette("modern_diverging_16")
 ```
 
-<img src="assets/modern_diverging_16.png" height="100" alt="modern_diverging_16"><br>
-
-**modern_diverging_17** - A 7-color red-to-black diverging palette
+**modern_diverging_17**
 
 ``` r
 # Penn Red to Persimmon to Orange Web to White to Silver to Prussian Blue to Black
 show_palette("modern_diverging_17")
 ```
 
-<img src="assets/modern_diverging_17.png" height="100" alt="modern_diverging_17"><br>
-
-**modern_diverging_18** - A 7-color pink-to-cyan diverging palette (identical to modern_diverging_14)
+**modern_diverging_18**
 
 ``` r
 # Tea Rose Red to Tea Rose Red 2 to Lavender Blush to Seasalt to Light Cyan to Mint Green to Non Photo Blue
 show_palette("modern_diverging_18")
 ```
 
-<img src="assets/modern_diverging_18.png" height="100" alt="modern_diverging_18"><br>
+**modern_diverging_19**
 
-### Sequential Palettes (28 palettes)
+``` r
+# Yinmn Blue to Air Force Blue to Air Superiority Blue to Columbia Blue to Lemon Chiffon to Mimi Pink to Persian Pink to French Rose to Amaranth Purple
+show_palette("modern_diverging_19")
+```
+
+**modern_diverging_20**
+
+``` r
+# Yale Blue to Paynes Gray to Cadet Gray to Ash Gray to Lemon Chiffon to Mimi Pink to Persian Pink to French Rose to Amaranth Purple
+show_palette("modern_diverging_20")
+```
+
+**modern_diverging_21**
+
+``` r
+# Yale Blue to Paynes Gray to Cadet Gray to Ash Gray to Lemon Chiffon to Flax to Naples Yellow to Orange Crayola to Sinopia
+show_palette("modern_diverging_21")
+```
+
+**modern_diverging_22**
+
+``` r
+# Prussian Blue to Hunter Green to Olive to Satin Sheen Gold to Selective Yellow to Carrot Orange to Tawny to Rust to Turkey Red
+show_palette("modern_diverging_22")
+```
+
+**modern_diverging_23**
+
+``` r
+# Deep Sky Blue to Cambridge Blue to Flax to Flax 2 to Jasmine to Sunset to Fawn to Atomic Tangerine to Light Red
+show_palette("modern_diverging_23")
+```
+
+**modern_diverging_24**
+
+``` r
+# French Rose to Cool Gray to Sky Blue to Non Photo Blue to Electric Blue to Ice Blue to Aquamarine to Aquamarine 2 to Light Green
+show_palette("modern_diverging_24")
+```
+
+### Sequential Palettes (47 palettes)
 
 #### Red Sequential Palettes
 
-**modern_sequential_red_01** - A 9-color sequential red palette from dark to light
+**modern_sequential_red_01**
 
 ``` r
 # Chocolate Cosmos to Claret to Rose Red to Amaranth Purple to Bright Pink Crayola to Salmon Pink to Cherry Blossom Pink to Pink to Lavender Blush
 show_palette("modern_sequential_red_01")
 ```
 
-<img src="assets/modern_sequential_red_01.png" height="100" alt="modern_sequential_red_01"><br>
+**modern_sequential_red_02**
+
+``` r
+# Claret to Quinacridone Magenta to China Rose to Mountbatten Pink to Taupe Gray to French Gray to Silver to Platinum to White Smoke
+show_palette("modern_sequential_red_02")
+```
+
+#### Brown Sequential Palettes
+
+**modern_sequential_brown_01**
+
+``` r
+# Van Dyke to Wenge to Beaver to Khaki to Sage to Dutch White to Pearl to Alabaster to White Smoke
+show_palette("modern_sequential_brown_01")
+```
+
+**modern_sequential_brown_02**
+
+``` r
+# Bistre to Cafe Noir to Kobicha to Coyote to Lion to Lion 2 to Buff to Desert Sand to Light Orange to Wheat
+show_palette("modern_sequential_brown_02")
+```
 
 #### Blue Sequential Palettes
 
-**modern_sequential_blue_01** - A 8-color sequential blue palette from dark to light
+**modern_sequential_blue_01**
 
 ``` r
 # Indigo Dye to Prussian Blue to UCLA Blue to Air Force Blue to Air Superiority Blue to Cerulean to Sky Blue to Light Blue
 show_palette("modern_sequential_blue_01")
 ```
 
-<img src="assets/modern_sequential_blue_01.png" height="100" alt="modern_sequential_blue_01"><br>
-
-**modern_sequential_blue_02** - A 7-color blue-grey sequential palette
+**modern_sequential_blue_02**
 
 ``` r
 # Platinum to French Gray to Cadet Gray to Slate Gray to Ultra Violet to Delft Blue to Penn Blue
 show_palette("modern_sequential_blue_02")
 ```
 
-<img src="assets/modern_sequential_blue_02.png" height="100" alt="modern_sequential_blue_02"><br>
-
-**modern_sequential_blue_03** - A 7-color deep blue sequential palette
+**modern_sequential_blue_03**
 
 ``` r
-# Federal Blue to Penn Blue to Yale Blue to Lapis Lazuli to Cerulean to Blue Green to Pacific Cyan
+# Oxford Blue to Prussian Blue to Bice Blue to Azure to Argentinian Blue to Jordie Blue to Light Sky Blue to Columbia Blue
 show_palette("modern_sequential_blue_03")
 ```
 
-<img src="assets/modern_sequential_blue_03.png" height="100" alt="modern_sequential_blue_03"><br>
-
-**modern_sequential_blue_04** - A 10-color bright blue sequential palette
+**modern_sequential_blue_04**
 
 ``` r
 # Picton Blue to Deep Sky Blue to Vivid Sky Blue to Pale Azure to Pale Azure 2 to Uranian Blue to Uranian Blue 2 to Columbia Blue to Columbia Blue 2 to Azure Web
 show_palette("modern_sequential_blue_04")
 ```
 
-<img src="assets/modern_sequential_blue_04.png" height="100" alt="modern_sequential_blue_04"><br>
-
-**modern_sequential_blue_05** - A 10-color blue sequential palette from light to dark
+**modern_sequential_blue_05**
 
 ``` r
 # Alice Blue to Columbia Blue to Baby Blue to Sky Blue to Picton Blue to Celestial Blue to Blue NCS to Cerulean to Indigo Dye to Indigo Dye 2
 show_palette("modern_sequential_blue_05")
 ```
 
-<img src="assets/modern_sequential_blue_05.png" height="100" alt="modern_sequential_blue_05"><br>
+**modern_sequential_blue_06**
+
+``` r
+# Delft Blue to Feldgrau to Moss Green to Olivine to Pear to Straw to Vanilla to Vanilla 2 to Timberwolf
+show_palette("modern_sequential_blue_06")
+```
 
 #### Green Sequential Palettes
 
-**modern_sequential_green_01** - A 7-color green-to-yellow sequential palette
+**modern_sequential_green_01**
 
 ``` r
 # Viridian to Sea Green to Kelly Green to Apple Green to Yellow Green to Pear to Yellow
 show_palette("modern_sequential_green_01")
 ```
 
-<img src="assets/modern_sequential_green_01.png" height="100" alt="modern_sequential_green_01"><br>
-
-**modern_sequential_green_02** - A 9-color pure green sequential palette
+**modern_sequential_green_02**
 
 ``` r
 # Dark Green to Cal Poly Green to Fern Green to Asparagus to Mantis to Pistachio to Celadon to Tea Green to Honeydew
 show_palette("modern_sequential_green_02")
 ```
 
-<img src="assets/modern_sequential_green_02.png" height="100" alt="modern_sequential_green_02"><br>
-
-**modern_sequential_green_03** - A 10-color teal sequential palette
+**modern_sequential_green_03**
 
 ``` r
 # Azure Web to Tiffany Blue to Tiffany Blue 2 to Verdigris to Persian Green to Persian Green 2 to Dark Cyan to Pine Green to Pine Green 2 to Brunswick Green
 show_palette("modern_sequential_green_03")
 ```
 
-<img src="assets/modern_sequential_green_03.png" height="100" alt="modern_sequential_green_03"><br>
-
-**modern_sequential_green_04** - A 10-color forest green sequential palette
+**modern_sequential_green_04**
 
 ``` r
 # Brunswick Green to Brunswick Green 2 to Hookers Green to Hookers Green 2 to Viridian to Zomp to Cambridge Blue to Cambridge Blue 2 to Tiffany Blue to Aquamarine
 show_palette("modern_sequential_green_04")
 ```
 
-<img src="assets/modern_sequential_green_04.png" height="100" alt="modern_sequential_green_04"><br>
-
-**modern_sequential_green_05** - A 10-color olive green sequential palette
+**modern_sequential_green_05**
 
 ``` r
 # Black Olive to Reseda Green to Moss Green to Olivine to Pistachio to Tea Green to Tea Green 2 to Nyanza to Nyanza 2 to Ivory
 show_palette("modern_sequential_green_05")
 ```
 
-<img src="assets/modern_sequential_green_05.png" height="100" alt="modern_sequential_green_05"><br>
+**modern_sequential_green_06**
+
+``` r
+# Rose Quartz to Silver to Ash Gray to Ash Gray 2 to Tea Green to Beige to Beige 2 to Beige 3 to Cosmic Latte
+show_palette("modern_sequential_green_06")
+```
+
+**modern_sequential_green_07**
+
+``` r
+# Straw to Citron to Olivine to Olivine 2 to Asparagus to Cambridge Blue to Zomp to Dark Cyan to Blue Munsell
+show_palette("modern_sequential_green_07")
+```
 
 #### Yellow Sequential Palettes
 
-**modern_sequential_yellow_01** - A 9-color orange-to-yellow sequential palette
+**modern_sequential_yellow_01**
 
 ``` r
 # Safety Orange to Princeton Orange to Dark Orange Web to Orange Peel to Orange Web to Selective Yellow to Mikado Yellow to School Bus Yellow to Naples Yellow
 show_palette("modern_sequential_yellow_01")
 ```
 
-<img src="assets/modern_sequential_yellow_01.png" height="100" alt="modern_sequential_yellow_01"><br>
-
-**modern_sequential_yellow_02** - A 10-color gold sequential palette
+**modern_sequential_yellow_02**
 
 ``` r
 # Satin Sheen Gold to Gold Metallic to Gold Metallic 2 to Old Gold to Old Gold 2 to Citron to Flax to Vanilla to Vanilla 2 to Lemon Chiffon
 show_palette("modern_sequential_yellow_02")
 ```
 
-<img src="assets/modern_sequential_yellow_02.png" height="100" alt="modern_sequential_yellow_02"><br>
-
 #### Grey Sequential Palettes
 
-**modern_sequential_grey_01** - A 7-color grey sequential palette from dark to light
+**modern_sequential_grey_01**
 
 ``` r
 # Dim Gray to Gray to Taupe Gray to Cadet Gray to Silver to Timberwolf to Isabelline
 show_palette("modern_sequential_grey_01")
 ```
 
-<img src="assets/modern_sequential_grey_01.png" height="100" alt="modern_sequential_grey_01"><br>
-
-**modern_sequential_grey_02** - A 10-color brown sequential palette
-
-``` r
-# Bistre to Cafe Noir to Kobicha to Coyote to Lion to Lion 2 to Buff to Desert Sand to Light Orange to Wheat
-show_palette("modern_sequential_grey_02")
-```
-
-<img src="assets/modern_sequential_grey_02.png" height="100" alt="modern_sequential_grey_02"><br>
-
-**modern_sequential_grey_03** - A 10-color neutral grey sequential palette
+**modern_sequential_grey_02**
 
 ``` r
 # Seasalt to Antiflash White to Platinum to French Gray to French Gray 2 to Cadet Gray to Slate Gray to Outer Space to Onyx to Eerie Black
-show_palette("modern_sequential_grey_03")
+show_palette("modern_sequential_grey_02")
 ```
 
-<img src="assets/modern_sequential_grey_03.png" height="100" alt="modern_sequential_grey_03"><br>
-
-**modern_sequential_grey_04** - A 10-color light grey sequential palette
+**modern_sequential_grey_03**
 
 ``` r
 # White to White Smoke to Antiflash White to Platinum to Timberwolf to Silver to Silver 2 to Silver 3 to Silver 4 to Silver 5
-show_palette("modern_sequential_grey_04")
+show_palette("modern_sequential_grey_03")
 ```
 
-<img src="assets/modern_sequential_grey_04.png" height="100" alt="modern_sequential_grey_04"><br>
-
-**modern_sequential_grey_05** - A 10-color warm neutral sequential palette
+**modern_sequential_grey_04**
 
 ``` r
 # Timberwolf to Timberwolf 2 to Dun to Dun 2 to Khaki to Khaki 2 to Khaki 3 to Khaki 4 to Cinereous to Beaver
-show_palette("modern_sequential_grey_05")
+show_palette("modern_sequential_grey_04")
 ```
 
-<img src="assets/modern_sequential_grey_05.png" height="100" alt="modern_sequential_grey_05"><br>
-
-**modern_sequential_grey_06** - A 10-color beige sequential palette
+**modern_sequential_grey_05**
 
 ``` r
 # Linen to Bone to Almond to Almond 2 to Dun to Dun 2 to Dun 3 to Dun 4 to Khaki to Khaki 2
-show_palette("modern_sequential_grey_06")
+show_palette("modern_sequential_grey_05")
 ```
 
-<img src="assets/modern_sequential_grey_06.png" height="100" alt="modern_sequential_grey_06"><br>
-
-**modern_sequential_grey_07** - A 10-color dark grey sequential palette
+**modern_sequential_grey_06**
 
 ``` r
 # Night to Eerie Black to Jet to Davys Gray to Dim Gray to Battleship Gray to Silver to Silver 2 to Platinum to White Smoke
-show_palette("modern_sequential_grey_07")
+show_palette("modern_sequential_grey_06")
 ```
-
-<img src="assets/modern_sequential_grey_07.png" height="100" alt="modern_sequential_grey_07"><br>
 
 #### Cyan Sequential Palette
 
-**modern_sequential_cyan_01** - A 10-color teal sequential palette
+**modern_sequential_cyan_01**
 
 ``` r
-# Caribbean Current to Teal to Dark Cyan to Dark Cyan 2 to Verdigris to Verdigris 2 to Verdigris 3 to Tiffany Blue to Light Blue to Light Blue 2
+# Caribean Current to Teal 2 to Dark Cyan to Dark Cyan 2 to Verdigris to Verdigris 2 to Verdigris 3 to Tiffany Blue to Light Blue to Light Blue 2
 show_palette("modern_sequential_cyan_01")
 ```
 
-<img src="assets/modern_sequential_cyan_01.png" height="100" alt="modern_sequential_cyan_01"><br>
-
 #### Coral Sequential Palettes
 
-**modern_sequential_coral_01** - A 7-color warm coral sequential palette
+**modern_sequential_coral_01**
 
 ``` r
-# Cornsilk to Desert Sand to Melon to Old Rose to Rose Red to Blush to Amaranth Purple
+# Cornsilk to Desert Sand to Melon to Old Rose to Blush to Rose Red to Amaranth Purple
 show_palette("modern_sequential_coral_01")
 ```
 
-<img src="assets/modern_sequential_coral_01.png" height="100" alt="modern_sequential_coral_01"><br>
-
-**modern_sequential_coral_02** - A 10-color orange coral sequential palette
+**modern_sequential_coral_02**
 
 ``` r
 # Seashell to Pale Dogwood to Apricot to Peach to Atomic Tangerine to Atomic Tangerine 2 to Coral to Orange Crayola to Orange Pantone to Orange Pantone 2
 show_palette("modern_sequential_coral_02")
 ```
 
-<img src="assets/modern_sequential_coral_02.png" height="100" alt="modern_sequential_coral_02"><br>
-
-**modern_sequential_coral_03** - A 10-color green coral sequential palette
+**modern_sequential_coral_03**
 
 ``` r
 # Brunswick Green to Brunswick Green 2 to Pine Green to Persian Green to Keppel to Keppel 2 to Turquoise to Tiffany Blue to Mint Green to Azure Web
 show_palette("modern_sequential_coral_03")
 ```
 
-<img src="assets/modern_sequential_coral_03.png" height="100" alt="modern_sequential_coral_03"><br>
+#### Purple Sequential Palettes
+
+**modern_sequential_purple_01**
+
+``` r
+# Rose Quartz to Rose Quartz 2 to Silver to Pale Dogwood to Pale Dogwood 2 to Pale Dogwood 3 to Misty Rose to Misty Rose 2 to Misty Rose 3
+show_palette("modern_sequential_purple_01")
+```
+
+**modern_sequential_purple_02**
+
+``` r
+# Cool Gray to Rose Quartz to Rose Quartz 2 to Thistle to Thistle 2 to Thistle 3 to Thistle 4 to Pale Purple to Magnolia
+show_palette("modern_sequential_purple_02")
+```
 
 #### Pink Sequential Palettes
 
-**modern_sequential_pink_02** - A 10-color deep pink sequential palette
+**modern_sequential_pink_02**
 
 ``` r
 # Eggplant to Wine to Claret to Claret 2 to Rose Red to Blush to Rose Pompadour to Amaranth Pink to Orchid Pink to Mimi Pink
 show_palette("modern_sequential_pink_02")
 ```
 
-<img src="assets/modern_sequential_pink_02.png" height="100" alt="modern_sequential_pink_02"><br>
-
-**modern_sequential_pink_03** - A 10-color magenta sequential palette
+**modern_sequential_pink_03**
 
 ``` r
 # Tyrian Purple to Wine to Quinacridone Magenta to Quinacridone Magenta 2 to Raspberry Rose to Fuchsia Rose to Fuchsia Rose 2 to Thulian Pink to Amaranth Pink to Orchid Pink
 show_palette("modern_sequential_pink_03")
 ```
 
-<img src="assets/modern_sequential_pink_03.png" height="100" alt="modern_sequential_pink_03"><br>
+**modern_sequential_pink_04**
+
+``` r
+# Outer Space to Dim Gray to Taupe Gray to Mountbatten Pink to Rose Pompadour to Salmon Pink to Tea Rose Red to Misty Rose to Linen to Snow
+show_palette("modern_sequential_pink_04")
+```
+
+**modern_sequential_pink_05**
+
+``` r
+# Dark Cyan to Dark Cyan 2 to Cadet Gray to Rose Quartz to Salmon Pink to Tea Rose Red to Misty Rose to Linen to Snow
+show_palette("modern_sequential_pink_05")
+```
+
+**modern_sequential_pink_06**
+
+``` r
+# Light Sea Green to Verdigris to Verdigris 2 to French Gray to Salmon Pink to Melon to Pale Dogwood to Champagne to Lemon Chiffon
+show_palette("modern_sequential_pink_06")
+```
+
+**modern_sequential_pink_07**
+
+``` r
+# Rose Ebony to Wenge to Taupe Gray to Taupe Gray 2 to Light Coral to Light Coral 2 to Melon to Melon 2 to Apricot
+show_palette("modern_sequential_pink_07")
+```
 
 ## Palette Summary
 
-- **Total palettes**: 61
-- **Categorical palettes**: 15
-- **Diverging palettes**: 18
-- **Sequential palettes**: 28
+- **Total palettes**: 92
+- **Categorical palettes**: 21  
+- **Diverging palettes**: 24
+- **Sequential palettes**: 47
 
 ## Usage Examples
 
@@ -688,16 +731,6 @@ reversed_palette <- get_palette("modern_diverging_01", reverse = TRUE)
 
 # Get subset of colors
 first_three <- get_palette("modern_categorical_02", n = 3)
-```
-
-### Creating Palette Documentation
-
-``` r
-# Generate PNG files for all palettes
-generate_all_pngs()
-
-# Generate with custom settings
-generate_all_pngs(output_dir = "my_assets", width = 100, height = 100)
 ```
 
 ### Integration with Other Packages
