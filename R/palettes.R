@@ -7,7 +7,7 @@
 #' @export
 palettes_list <- list(
   # Categorical Palettes
-  modern_categorical_01 = c(
+  more_categorical_01 = c(
     "#2E86AB",  # Steel Blue
     "#A23B72",  # Berry
     "#F18F01",  # Orange
@@ -15,7 +15,7 @@ palettes_list <- list(
     "#6A994E"   # Green
   ),
 
-  modern_categorical_02 = c(
+  more_categorical_02 = c(
     "#1D74A0",  # Old Rose
     "#D9AE00",  # Gold
     "#004F74",  # Rose Red
@@ -28,7 +28,7 @@ palettes_list <- list(
     "#A6646E"   # Dark Moss Green
   ),
 
-  modern_categorical_03 = c(
+  more_categorical_03 = c(
     "#EDDCD2",  # Champagne Pink
     "#FFF1E6",  # Linen
     "#FDE2E4",  # Misty Rose
@@ -41,7 +41,7 @@ palettes_list <- list(
     "#99C1DE"   # Powder Blue
   ),
 
-  modern_categorical_04 = c(
+  more_categorical_04 = c(
     "#006D77",  # Persian Green
     "#42999B",  # Cerulean
     "#663399",  # Rebecca Purple
@@ -51,7 +51,7 @@ palettes_list <- list(
     "#FFDF00"   # Naples Yellow
   ),
 
-  modern_categorical_05 = c(
+  more_categorical_05 = c(
     "#FFD700",  # Gold Metallic
     "#CD853F",  # Lion
     "#F0E68C",  # Khaki
@@ -61,7 +61,7 @@ palettes_list <- list(
     "#696969"   # Dim Gray
   ),
 
-  modern_categorical_06 = c(
+  more_categorical_06 = c(
     "#2E5266",  # Marian Blue
     "#D9AE5F",  # Xanthous
     "#B8860B",  # Copper
@@ -71,7 +71,7 @@ palettes_list <- list(
     "#FF6347"   # Tomato
   ),
 
-  modern_categorical_07 = c(
+  more_categorical_07 = c(
     "#AD343E",  # Cardinal
     "#525252",  # Davys Gray
     "#F2AF29",  # Xanthous
@@ -84,7 +84,7 @@ palettes_list <- list(
     "#3ECD7C"   # Emerald
   ),
 
-  modern_categorical_08 = c(
+  more_categorical_08 = c(
     "#54B948",  # Dark Pastel Green
     "#494748",  # Davys Gray
     "#F47D33",  # Pumpkin
@@ -97,7 +97,7 @@ palettes_list <- list(
     "#2C68A0"   # Lapis Lazuli
   ),
 
-  modern_categorical_09 = c(
+  more_categorical_09 = c(
     "#EDDCD2",  # Champagne Pink
     "#FFF1E6",  # Linen
     "#FDE2E4",  # Misty Rose
@@ -110,7 +110,7 @@ palettes_list <- list(
     "#99C1DE"   # Powder Blue
   ),
 
-  modern_categorical_10 = c(
+  more_categorical_10 = c(
     "#FFDC74",  # Jasmine
     "#B3E561",  # Yellow Green
     "#95C8F3",  # Light Sky Blue
@@ -123,7 +123,7 @@ palettes_list <- list(
     "#AEB5FF"   # Periwinkle
   ),
 
-  modern_categorical_11 = c(
+  more_categorical_11 = c(
     "#E8A6B3",  # Cherry Blossom Pink
     "#A9DEF9",  # Uranian Blue
     "#E6F5CE",  # Nyanza
@@ -136,7 +136,7 @@ palettes_list <- list(
     "#EFDAFB"   # Pale Purple
   ),
 
-  modern_categorical_12 = c(
+  more_categorical_12 = c(
     "#C3E6F7",  # Columbia Blue
     "#FFE4A1",  # Peach Yellow
     "#FAB1ED",  # Plum Web
@@ -149,7 +149,7 @@ palettes_list <- list(
     "#FFCFAB"   # Peach
   ),
 
-  modern_categorical_13 = c(
+  more_categorical_13 = c(
     "#FF0000",  # Red
     "#0080FF",  # Azure
     "#FF0080",  # Rose
@@ -162,7 +162,7 @@ palettes_list <- list(
     "#FF9933"   # Princeton Orange
   ),
 
-  modern_categorical_14 = c(
+  more_categorical_14 = c(
     "#669900",  # Avocado
     "#FFCC00",  # Jonquil
     "#006699",  # Lapis Lazuli
@@ -175,7 +175,7 @@ palettes_list <- list(
     "#990066"   # Murrey
   ),
 
-  modern_categorical_15 = c(
+  more_categorical_15 = c(
     "#287271",  # Myrtle Green
     "#E9C46A",  # Saffron
     "#2A9D8F",  # Persian Green
@@ -188,7 +188,7 @@ palettes_list <- list(
     "#EE8959"   # Coral
   ),
 
-  modern_categorical16 = c(
+  more_categorical16 = c(
     "#EF3E36",  # Vermilion
     "#17BEBB",  # Verdigris
     "#F8F32B",  # Aureolin
@@ -200,7 +200,7 @@ palettes_list <- list(
     "#07FF41"   # Erin
   ),
 
-  modern_categorical_17 = c(
+  more_categorical_17 = c(
     "#BFAE48",  # Old Gold
     "#3A405A",  # Delft Blue
     "#2D936C",  # Sea Green
@@ -212,7 +212,7 @@ palettes_list <- list(
     "#504B3A"   # Drab Dark Brown
   ),
 
-  modern_categorical_18 = c(
+  more_categorical_18 = c(
     "#346883",  # Paynes Gray
     "#BDBF4A",  # Citron
     "#F29340",  # Carrot Orange
@@ -225,7 +225,7 @@ palettes_list <- list(
     "#AAB052"   # Olivine
   ),
 
-  modern_categorical_19 = c(
+  more_categorical_19 = c(
     "#AD343E",  # Cardinal
     "#525252",  # Davys Gray
     "#F2AF29",  # Xanthous
@@ -238,7 +238,7 @@ palettes_list <- list(
     "#3ECD7C"   # Emerald
   ),
 
-  modern_categorical_20 = c(
+  more_categorical_20 = c(
     "#CEC5E8",  # Periwinkle
     "#C5DCA0",  # Tea Green
     "#F7E6C4",  # Dutch White
@@ -249,7 +249,7 @@ palettes_list <- list(
     "#D0D3DD"   # French Gray
   ),
 
-  modern_categorical_21 = c(
+  more_categorical_21 = c(
     "#A4243B",  # Amaranth Purple
     "#4E6E58",  # Hookers Green
     "#D1BF89",  # Ecru
@@ -261,7 +261,7 @@ palettes_list <- list(
   ),
 
   # Diverging Palettes
-  modern_diverging_01 = c(
+  more_diverging_01 = c(
     "#83203E",  # Claret
     "#C04F6B",  # Bittersweet
     "#FFB3C1",  # Cherry Blossom Pink
@@ -271,7 +271,7 @@ palettes_list <- list(
     "#1B4F72"   # Berkeley Blue
   ),
 
-  modern_diverging_02 = c(
+  more_diverging_02 = c(
     "#DC143C",  # Imperial Red
     "#FF6347",  # Orange Crayola
     "#FF8C69",  # Carrot Orange
@@ -281,7 +281,7 @@ palettes_list <- list(
     "#4A6D6B"   # Paynes Gray
   ),
 
-  modern_diverging_03 = c(
+  more_diverging_03 = c(
     "#36454F",  # Charcoal
     "#2F4F4F",  # Myrtle Green
     "#40826D",  # Persian Green
@@ -291,7 +291,7 @@ palettes_list <- list(
     "#A0522D"   # Burnt Sienna
   ),
 
-  modern_diverging_04 = c(
+  more_diverging_04 = c(
     "#FF6347",  # Persimmon
     "#FF6347",  # Orange Crayola
     "#FFA07A",  # Atomic Tangerine
@@ -301,7 +301,7 @@ palettes_list <- list(
     "#DC143C"   # Cerise
   ),
 
-  modern_diverging_05 = c(
+  more_diverging_05 = c(
     "#2F4F4F",  # Midnight Green
     "#008B8B",  # Dark Cyan
     "#40E0D0",  # Tiffany Blue
@@ -311,7 +311,7 @@ palettes_list <- list(
     "#B22222"   # Rust
   ),
 
-  modern_diverging_06 = c(
+  more_diverging_06 = c(
     "#B22222",  # Chili Red
     "#FF8C00",  # Pumpkin
     "#FFA07A",  # Atomic Tangerine
@@ -321,7 +321,7 @@ palettes_list <- list(
     "#520052"   # Palatinate
   ),
 
-  modern_diverging_07 = c(
+  more_diverging_07 = c(
     "#006400",  # Dark Green
     "#228B22",  # Pine Green
     "#20B2AA",  # Keppel
@@ -331,7 +331,7 @@ palettes_list <- list(
     "#991E29"   # Madder
   ),
 
-  modern_diverging_08 = c(
+  more_diverging_08 = c(
     "#2F2F2F",  # Smoky Black
     "#696969",  # Davy's Gray
     "#C0C0C0",  # Silver
@@ -341,7 +341,7 @@ palettes_list <- list(
     "#8B0000"  # Off Red RGB
   ),
 
-  modern_diverging_09 = c(
+  more_diverging_09 = c(
     "#0C3B5A",  # Indigo Dye
     "#0F4C75",  # United Nations Blue
     "#3282B8",  # Green Blue
@@ -351,7 +351,7 @@ palettes_list <- list(
     "#9A1D1D"   # Carmine
   ),
 
-  modern_diverging_10 = c(
+  more_diverging_10 = c(
     "#003366",  # Prussian Blue
     "#6495ED",  # Cambridge Blue
     "#2E8B57",  # Caribbean Current
@@ -361,7 +361,7 @@ palettes_list <- list(
     "#704214"   # Seal Brown
   ),
 
-  modern_diverging_11 = c(
+  more_diverging_11 = c(
     "#006D77",  # Caribbean Current
     "#42999B",  # Dark Cyan
     "#83C5BE",  # Tiffany Blue
@@ -371,7 +371,7 @@ palettes_list <- list(
     "#E29578"   # Atomic Tangerine
   ),
 
-  modern_diverging_12 = c(
+  more_diverging_12 = c(
     "#83203E",  # Claret
     "#B8475D",  # Redwood
     "#EA9BA2",  # Salmon Pink
@@ -381,7 +381,7 @@ palettes_list <- list(
     "#5A6B72"   # Paynes Gray
   ),
 
-  modern_diverging_13 = c(
+  more_diverging_13 = c(
     "#003E7F",  # Yale Blue
     "#0068AF",  # Green Blue
     "#5495E1",  # United Nations Blue
@@ -391,7 +391,7 @@ palettes_list <- list(
     "#00540E"   # Cal Poly Green
   ),
 
-  modern_diverging_14 = c(
+  more_diverging_14 = c(
     "#DFB9BB",  # Tea Rose Red
     "#FDC8C4",  # Tea Rose Red 2
     "#FCEDEF",  # Lavender Blush
@@ -401,7 +401,7 @@ palettes_list <- list(
     "#B6E3E8"   # Non Photo Blue
   ),
 
-  modern_diverging_15 = c(
+  more_diverging_15 = c(
     "#CB997E",  # Buff
     "#DDBEA9",  # Desert Sand
     "#FFE8D6",  # Champagne Pink
@@ -411,7 +411,7 @@ palettes_list <- list(
     "#6B705C"   # Reseda Green
   ),
 
-  modern_diverging_16 = c(
+  more_diverging_16 = c(
     "#002475",  # Royal Blue Traditional
     "#003EA7",  # Cobalt Blue
     "#318AC3",  # Blue NCS
@@ -421,7 +421,7 @@ palettes_list <- list(
     "#7E0210"   # Falu Red
   ),
 
-  modern_diverging_17 = c(
+  more_diverging_17 = c(
     "#9D0208",  # Penn Red
     "#E85D04",  # Persimmon
     "#FCA311",  # Orange Web
@@ -431,7 +431,7 @@ palettes_list <- list(
     "#000000"   # Black
   ),
 
-  modern_diverging_18 = c(
+  more_diverging_18 = c(
     "#DFB9BB",  # Tea Rose Red
     "#FDC8C4",  # Tea Rose Red 2
     "#FCEDEF",  # Lavender Blush
@@ -441,7 +441,7 @@ palettes_list <- list(
     "#B6E3E8"   # Non Photo Blue
   ),
 
-  modern_diverging_19 = c(
+  more_diverging_19 = c(
     "#28557F",  # Yinmn Blue
     "#5284A6",  # Air Force Blue
     "#60A8CC",  # Air Superiority Blue
@@ -453,7 +453,7 @@ palettes_list <- list(
     "#AB084C"   # Amaranth Purple
   ),
 
-  modern_diverging_20 = c(
+  more_diverging_20 = c(
     "#0D3B66",  # Yale Blue
     "#49697F",  # Paynes Gray
     "#849698",  # Cadet Gray
@@ -465,7 +465,7 @@ palettes_list <- list(
     "#AB084C"   # Amaranth Purple
   ),
 
-  modern_diverging_21 = c(
+  more_diverging_21 = c(
     "#0D3B66",  # Yale Blue
     "#49697F",  # Paynes Gray
     "#849698",  # Cadet Gray
@@ -477,7 +477,7 @@ palettes_list <- list(
     "#DA2A07"   # Sinopia
   ),
 
-  modern_diverging_22 = c(
+  more_diverging_22 = c(
     "#003249",  # Prussian Blue
     "#3F5438",  # Hunter Green
     "#7E7627",  # Olive
@@ -489,7 +489,7 @@ palettes_list <- list(
     "#A50104"   # Turkey Red
   ),
 
-  modern_diverging_23 = c(
+  more_diverging_23 = c(
     "#3EC2FF",  # Deep Sky Blue
     "#A5BD9D",  # Cambridge Blue
     "#DBD38A",  # Flax
@@ -501,7 +501,7 @@ palettes_list <- list(
     "#FE696C"   # Light Red
   ),
 
-  modern_diverging_24 = c(
+  more_diverging_24 = c(
     "#F94383",  # French Rose
     "#A09EBD",  # Cool Gray
     "#8CC7D9",  # Sky Blue
@@ -514,7 +514,7 @@ palettes_list <- list(
   ),
 
   # Sequential Palettes
-  modern_sequential_red_01 = c(
+  more_sequential_red_01 = c(
     "#370617",  # Chocolate Cosmos
     "#83203E",  # Claret
     "#C5617B",  # Rose Red
@@ -526,7 +526,7 @@ palettes_list <- list(
     "#FFF0F5"   # Lavender Blush
   ),
 
-  modern_sequential_red_02 = c(
+  more_sequential_red_02 = c(
     "#93173C",  # Claret
     "#973854",  # Quinacridone Magenta
     "#9B586C",  # China Rose
@@ -538,7 +538,7 @@ palettes_list <- list(
     "#F6F4F4"   # White Smoke
   ),
 
-  modern_sequential_brown_01 = c(
+  more_sequential_brown_01 = c(
     "#4E3D42",  # Van Dyke
     "#6F6059",  # Wenge
     "#8F826F",  # Beaver
@@ -550,7 +550,7 @@ palettes_list <- list(
     "#F6F4F4"   # White Smoke
   ),
 
-  modern_sequential_brown_02 = c(
+  more_sequential_brown_02 = c(
     "#2C2111",  # Bistre
     "#44331A",  # Cafe Noir
     "#5C4624",  # Kobicha
@@ -563,7 +563,7 @@ palettes_list <- list(
     "#F7E1BE"   # Wheat
   ),
 
-  modern_sequential_blue_01 = c(
+  more_sequential_blue_01 = c(
     "#1B263B",  # Indigo Dye
     "#003366",  # Prussian Blue
     "#415A77",  # UCLA Blue
@@ -574,7 +574,7 @@ palettes_list <- list(
     "#ADD8E6"   # Light Blue
   ),
 
-  modern_sequential_blue_02 = c(
+  more_sequential_blue_02 = c(
     "#E5E5E5",  # Platinum
     "#9E9E9E",  # French Gray
     "#6F7B85",  # Cadet Gray
@@ -584,7 +584,7 @@ palettes_list <- list(
     "#1C2F4A"   # Penn Blue
   ),
 
-  modern_sequential_blue_03 = c(
+  more_sequential_blue_03 = c(
     "#061A40",  # Oxford Blue
     "#003559",  # Prussian Blue
     "#006DAA",  # Bice Blue
@@ -595,7 +595,7 @@ palettes_list <- list(
     "#B9D6F2"   # Columbia Blue
   ),
 
-  modern_sequential_blue_04 = c(
+  more_sequential_blue_04 = c(
     "#01ACFB",  # Picton Blue
     "#34BDFC",  # Deep Sky Blue
     "#5DCAFD",  # Vivid Sky Blue
@@ -608,7 +608,7 @@ palettes_list <- list(
     "#DDF4FD"   # Azure Web
   ),
 
-  modern_sequential_blue_05 = c(
+  more_sequential_blue_05 = c(
     "#DEEFF7",  # Alice Blue
     "#BEDEEF",  # Columbia Blue
     "#9DCEE7",  # Baby Blue
@@ -621,7 +621,7 @@ palettes_list <- list(
     "#143D52"   # Indigo Dye 2
   ),
 
-  modern_sequential_blue_06 = c(
+  more_sequential_blue_06 = c(
     "#24385A",  # Delft Blue
     "#516058",  # Feldgrau
     "#7D8855",  # Moss Green
@@ -633,7 +633,7 @@ palettes_list <- list(
     "#DADAD4"   # Timberwolf
   ),
 
-  modern_sequential_green_01 = c(
+  more_sequential_green_01 = c(
     "#40826D",  # Viridian
     "#2E8B57",  # Sea Green
     "#228B22",  # Kelly Green
@@ -643,7 +643,7 @@ palettes_list <- list(
     "#FFFF00"   # Yellow
   ),
 
-  modern_sequential_green_02 = c(
+  more_sequential_green_02 = c(
     "#006400",  # Dark Green
     "#1E4D2B",  # Cal Poly Green
     "#4F7942",  # Fern Green
@@ -655,7 +655,7 @@ palettes_list <- list(
     "#E3F2E3"   # Honeydew
   ),
 
-  modern_sequential_green_03 = c(
+  more_sequential_green_03 = c(
     "#E0F2F1",  # Azure Web
     "#B2DFDB",  # Tiffany Blue
     "#80CBC4",  # Tiffany Blue 2
@@ -668,7 +668,7 @@ palettes_list <- list(
     "#004D40"   # Brunswick Green
   ),
 
-  modern_sequential_green_04 = c(
+  more_sequential_green_04 = c(
     "#1C3E35",  # Brunswick Green
     "#2A5246",  # Brunswick Green 2
     "#386658",  # Hookers Green
@@ -681,7 +681,7 @@ palettes_list <- list(
     "#99F2D1"   # Aquamarine
   ),
 
-  modern_sequential_green_05 = c(
+  more_sequential_green_05 = c(
     "#3A4530",  # Black Olive
     "#5E704A",  # Reseda Green
     "#7A9360",  # Moss Green
@@ -694,7 +694,7 @@ palettes_list <- list(
     "#F4FAEE"   # Ivory
   ),
 
-  modern_sequential_green_06 = c(
+  more_sequential_green_06 = c(
     "#A6979C",  # Rose Quartz
     "#B2AAA4",  # Silver
     "#BEBDAC",  # Ash Gray
@@ -706,7 +706,7 @@ palettes_list <- list(
     "#FFFAEA"   # Cosmic Latte
   ),
 
-  modern_sequential_green_07 = c(
+  more_sequential_green_07 = c(
     "#DBD56E",  # Straw
     "#C7CB70",  # Citron
     "#B2C072",  # Olivine
@@ -718,7 +718,7 @@ palettes_list <- list(
     "#2D93AD"   # Blue Munsell
   ),
 
-  modern_sequential_yellow_01 = c(
+  more_sequential_yellow_01 = c(
     "#FF6600",  # Safety Orange
     "#FF8500",  # Princeton Orange
     "#FF8C00",  # Dark Orange Web
@@ -730,7 +730,7 @@ palettes_list <- list(
     "#FFDC00"   # Naples Yellow
   ),
 
-  modern_sequential_yellow_02 = c(
+  more_sequential_yellow_02 = c(
     "#C29F21",  # Satin Sheen Gold
     "#C6A52C",  # Gold Metallic
     "#C9AA36",  # Gold Metallic 2
@@ -743,7 +743,7 @@ palettes_list <- list(
     "#F6F1C4"   # Lemon Chiffon
   ),
 
-  modern_sequential_grey_01 = c(
+  more_sequential_grey_01 = c(
     "#696969",  # Dim Gray
     "#808080",  # Gray
     "#8B8680",  # Taupe Gray
@@ -753,7 +753,7 @@ palettes_list <- list(
     "#F4F0EC"   # Isabelline
   ),
 
-  modern_sequential_grey_02 = c(
+  more_sequential_grey_02 = c(
     "#F8F9FA",  # Seasalt
     "#E9ECEF",  # Antiflash White
     "#DEE2E6",  # Platinum
@@ -766,7 +766,7 @@ palettes_list <- list(
     "#212529"   # Eerie Black
   ),
 
-  modern_sequential_grey_03 = c(
+  more_sequential_grey_03 = c(
     "#FFFFFF",  # White
     "#F5F5F5",  # White Smoke
     "#EBEBEB",  # Antiflash White
@@ -779,7 +779,7 @@ palettes_list <- list(
     "#A3A3A3"   # Silver 5
   ),
 
-  modern_sequential_grey_04 = c(
+  more_sequential_grey_04 = c(
     "#D9CDC4",  # Timberwolf
     "#D5C8BF",  # Timberwolf 2
     "#CDBFB4",  # Dun
@@ -792,7 +792,7 @@ palettes_list <- list(
     "#9B887B"   # Beaver
   ),
 
-  modern_sequential_grey_05 = c(
+  more_sequential_grey_05 = c(
     "#EBE3DA",  # Linen
     "#E7DDD2",  # Bone
     "#E2D6CB",  # Almond
@@ -805,7 +805,7 @@ palettes_list <- list(
     "#C3A995"   # Khaki 2
   ),
 
-  modern_sequential_grey_06 = c(
+  more_sequential_grey_06 = c(
     "#161616",  # Night
     "#262626",  # Eerie Black
     "#393939",  # Jet
@@ -818,7 +818,7 @@ palettes_list <- list(
     "#F4F4F4"   # White Smoke
   ),
 
-  modern_sequential_cyan_01 = c(
+  more_sequential_cyan_01 = c(
     "#006666",  # Caribean Current
     "#008080",  # Teal 2
     "#178C8C",  # Dark Cyan
@@ -831,7 +831,7 @@ palettes_list <- list(
     "#B5DADA"   # Light Blue 2
   ),
 
-  modern_sequential_coral_01 = c(
+  more_sequential_coral_01 = c(
     "#FFF8DC",  # Cornsilk
     "#EDC9AF",  # Desert Sand
     "#F1C28B",  # Melon
@@ -841,7 +841,7 @@ palettes_list <- list(
     "#B23A7F"   # Amaranth Purple
   ),
 
-  modern_sequential_coral_02 = c(
+  more_sequential_coral_02 = c(
     "#FFEEE5",  # Seashell
     "#FFDDCC",  # Pale Dogwood
     "#FFCCB2",  # Apricot
@@ -854,7 +854,7 @@ palettes_list <- list(
     "#FF5400"   # Orange Pantone 2
   ),
 
-  modern_sequential_coral_03 = c(
+  more_sequential_coral_03 = c(
     "#084138",  # Brunswick Green
     "#0A5D50",  # Brunswick Green 2
     "#0B7867",  # Pine Green
@@ -867,7 +867,7 @@ palettes_list <- list(
     "#E8F8F5"   # Azure Web
   ),
 
-  modern_sequential_purple_01 = c(
+  more_sequential_purple_01 = c(
     "#A6979A",  # Rose Quartz
     "#B3A4A5",  # Rose Quartz 2
     "#BFAFAE",  # Silver
@@ -879,7 +879,7 @@ palettes_list <- list(
     "#FFEBEB"   # Misty Rose 3
   ),
 
-  modern_sequential_purple_02 = c(
+  more_sequential_purple_02 = c(
     "#978EAB",  # Cool Gray
     "#A89CB7",  # Rose Quartz
     "#BAA9C4",  # Rose Quartz 2
@@ -891,7 +891,7 @@ palettes_list <- list(
     "#F4EBFD"   # Magnolia
   ),
 
-  modern_sequential_pink_02 = c(
+  more_sequential_pink_02 = c(
     "#522E38",  # Eggplant
     "#602437",  # Wine
     "#75263F",  # Claret
@@ -904,7 +904,7 @@ palettes_list <- list(
     "#FFE0E9"   # Mimi Pink
   ),
 
-  modern_sequential_pink_03 = c(
+  more_sequential_pink_03 = c(
     "#592135",  # Tyrian Purple
     "#68273E",  # Wine
     "#772C46",  # Quinacridone Magenta
@@ -917,7 +917,7 @@ palettes_list <- list(
     "#E3B5C5"   # Orchid Pink
   ),
 
-  modern_sequential_pink_03 = c(
+  more_sequential_pink_03 = c(
     "#148893",  # Dark Cyan
     "#478695",  # Blue Munsell
     "#7A8396",  # Slate Gray
@@ -930,7 +930,7 @@ palettes_list <- list(
     "#FFFBF6"   # Baby Powder
   ),
 
-  modern_sequential_pink_04 = c(
+  more_sequential_pink_04 = c(
     "#4A585E",  # Outer Space
     "#676C74",  # Dim Gray
     "#867F8A",  # Taupe Gray
@@ -943,7 +943,7 @@ palettes_list <- list(
     "#FFF8F6"   # Snow
   ),
 
-  modern_sequential_pink_05 = c(
+  more_sequential_pink_05 = c(
     "#119B99",  # Dark Cyan
     "#479C9D",  # Dark Cyan 2
     "#7D9DA0",  # Cadet Gray
@@ -955,7 +955,7 @@ palettes_list <- list(
     "#FFF8F6"   # Snow
   ),
 
-  modern_sequential_pink_06 = c(
+  more_sequential_pink_06 = c(
     "#00A3A0",  # Light Sea Green
     "#3ABCBB",  # Verdigris
     "#74B2B4",  # Verdigris 2
@@ -967,7 +967,7 @@ palettes_list <- list(
     "#FFF9D3"   # Lemon Chiffon
   ),
 
-  modern_sequential_pink_07 = c(
+  more_sequential_pink_07 = c(
     "#564140",  # Rose Ebony
     "#7A6968",  # Wenge
     "#8E8283",  # Taupe Gray
@@ -995,16 +995,16 @@ palettes_list <- list(
 #'
 #' @examples
 #' # Get a basic palette
-#' get_palette("modern_categorical_01")
+#' get_palette("more_categorical_01")
 #'
 #' # Get more colors through interpolation
-#' get_palette("modern_sequential_blue_01", n = 15, type = "continuous")
+#' get_palette("more_sequential_blue_01", n = 15, type = "continuous")
 #'
 #' # Reverse palette order
-#' get_palette("modern_diverging_01", reverse = TRUE)
+#' get_palette("more_diverging_01", reverse = TRUE)
 #'
 #' # Add transparency
-#' get_palette("modern_categorical_02", alpha = 0.7)
+#' get_palette("more_categorical_02", alpha = 0.7)
 get_palette <- function(name, n = NULL, type = "discrete", reverse = FALSE, alpha = NULL) {
 
   # Check if palette exists
@@ -1072,11 +1072,11 @@ list_palettes <- function(type = "all") {
   if (type == "all") {
     return(all_names)
   } else if (type == "categorical") {
-    return(all_names[grepl("^modern_categorical", all_names)])
+    return(all_names[grepl("^more_categorical", all_names)])
   } else if (type == "diverging") {
-    return(all_names[grepl("^modern_diverging", all_names)])
+    return(all_names[grepl("^more_diverging", all_names)])
   } else if (type == "sequential") {
-    return(all_names[grepl("^modern_sequential", all_names)])
+    return(all_names[grepl("^more_sequential", all_names)])
   } else {
     stop("Type must be one of: 'all', 'categorical', 'diverging', 'sequential'")
   }
@@ -1097,13 +1097,13 @@ list_palettes <- function(type = "all") {
 #'
 #' @examples
 #' # Show a basic palette
-#' show_palette("modern_categorical_01")
+#' show_palette("more_categorical_01")
 #'
 #' # Show more colors through interpolation
-#' show_palette("modern_sequential_blue_01", n = 15, type = "continuous")
+#' show_palette("more_sequential_blue_01", n = 15, type = "continuous")
 #'
 #' # Show without hex codes
-#' show_palette("modern_diverging_01", show_hex = FALSE)
+#' show_palette("more_diverging_01", show_hex = FALSE)
 show_palette <- function(name, n = NULL, type = "discrete", reverse = FALSE, show_hex = TRUE) {
 
   # Get the colors
@@ -1144,7 +1144,7 @@ show_palette <- function(name, n = NULL, type = "discrete", reverse = FALSE, sho
 #'
 #' @examples
 #' # Get information about a palette
-#' get_palette_info("modern_categorical_01")
+#' get_palette_info("more_categorical_01")
 get_palette_info <- function(name) {
 
   # Check if palette exists
@@ -1155,11 +1155,11 @@ get_palette_info <- function(name) {
   colors <- palettes_list[[name]]
 
   # Determine palette type
-  if (grepl("^modern_categorical", name)) {
+  if (grepl("^more_categorical", name)) {
     type <- "Categorical"
-  } else if (grepl("^modern_diverging", name)) {
+  } else if (grepl("^more_diverging", name)) {
     type <- "Diverging"
-  } else if (grepl("^modern_sequential", name)) {
+  } else if (grepl("^more_sequential", name)) {
     type <- "Sequential"
   } else {
     type <- "Unknown"

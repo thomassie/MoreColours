@@ -31,11 +31,11 @@ Display a color palette visually in the plot window.
 }
 \examples{
 # Show a basic palette
-show_palette("modern_categorical_01")
+show_palette("more_categorical_01")
 
 # Show more colors through interpolation
-show_palette("modern_sequential_blue_01", n = 15, type = "continuous")
+show_palette("more_sequential_blue_01", n = 15, type = "continuous")
 
 # Show without hex codes
-show_palette("modern_diverging_01", show_hex = FALSE)
+show_palette("more_diverging_01", show_hex = FALSE)
 }

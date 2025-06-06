@@ -25,14 +25,14 @@ Retrieve a specific color palette by name with optional modifications.
 }
 \examples{
 # Get a basic palette
-get_palette("modern_categorical_01")
+get_palette("more_categorical_01")
 
 # Get more colors through interpolation
-get_palette("modern_sequential_blue_01", n = 15, type = "continuous")
+get_palette("more_sequential_blue_01", n = 15, type = "continuous")
 
 # Reverse palette order
-get_palette("modern_diverging_01", reverse = TRUE)
+get_palette("more_diverging_01", reverse = TRUE)
 
 # Add transparency
-get_palette("modern_categorical_02", alpha = 0.7)
+get_palette("more_categorical_02", alpha = 0.7)
 }

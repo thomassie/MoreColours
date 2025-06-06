@@ -17,5 +17,5 @@ Get detailed information about a specific palette.
 }
 \examples{
 # Get information about a palette
-get_palette_info("modern_categorical_01")
+get_palette_info("more_categorical_01")
 }
