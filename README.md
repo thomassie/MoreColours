@@ -161,13 +161,13 @@ show_palette("more_categorical_15")
 ```
 <img src="assets/more_categorical_15.png" height="100" alt="more_categorical_15"><br>
 
-**more_categorical16**
+**more_categorical_16**
 
 ``` r
 # Vermilion to Verdigris to Aureolin to Razzle Dazzle Rose to Sgbus Green to Safety Orange to Neon Blue to Rose to Erin
 show_palette("more_categorical16")
 ```
-<img src="assets/more_categorical16.png" height="100" alt="more_categorical16"><br>
+<img src="assets/more_categorical_16.png" height="100" alt="more_categorical16"><br>
 
 **more_categorical_17**
 
